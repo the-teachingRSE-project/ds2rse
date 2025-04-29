@@ -8,6 +8,13 @@
     $endif$
 ]{$documentclass$}
 
+$if(bibliography)$
+$for(bibliography)$
+\addbibresource{$bibliography$}
+$endfor$
+$endif$
+
+
 % Standard packages
 \usepackage{graphicx}
 \usepackage{longtable}
@@ -30,6 +37,12 @@ $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
 
+% solve \tightlist error
+\providecommand{\tightlist}{%
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% solve \pandocbounded error
+\providecommand{\pandocbounded}[1]{#1}
 
 
 
@@ -44,16 +57,7 @@ $endif$
     \subtitle{$subtitle$}
     $endif$
 
-    \author[1,2]{Firstname1 Lastname1}{firstname1.lastname1@affiliation1.org}{0000-0000-0000-0000}
-    \author[2]{Firstname2 Lastname2}{firstname2.lastname2@affiliation2.org}{0000-0000-0000-0000}
-    \author[3]{Firstname3 Lastname3}{firstname3.lastname3@affiliation1.org}{0000-0000-0000-0000}
-    \author[1]{Firstname4 Lastname4}{firstname4.lastname4@affiliation1.org}{0000-0000-0000-0000}%
-    \affil[1]{Universität 1\\Abteilung\\Straße\\Postleitzahl Ort\\Land}
-    \affil[2]{University 2 \\Department\\Address\\Country}
-    \affil[3]{University 3\\Department\\Address\\Country}
-
-
-
+    \include{authors.tex}
 
     \maketitle
 
@@ -75,8 +79,7 @@ $endif$
     $body$
 
 % Bibliography
-    $if(bibliography)$
+
     \printbibliography
-    $endif$
 
 \end{document}

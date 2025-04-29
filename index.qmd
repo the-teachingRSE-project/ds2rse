@@ -19,20 +19,6 @@ format:
       - text: |
           $highlighting-macros$
 
-author:
-- name: Julian Dehne
-  orcid: 0000-0001-9265-9619
-  email: julian.dehne@gi.de
-  affiliation: "Gesellschaft für Informatik" # direct field
-  affiliation-index: 1
-- name: Julian Dehne 2
-  orcid: 0000-0001-9265-9619-2
-  email: julian.dehne@gi.de
-  affiliation: "deRSE"
-  affiliation-index: 2
-
-
-
 ---
 
 # Verwendung
@@ -73,4 +59,30 @@ public class Hello {
 ```
 
 # Formeln
+
+{{< include research_process.qmd >}}
+
+# What has been discussed
+
+TODO insert:
+Levels of Differences between RSE and DS:
+
+- institutional
+- disciplinary connections
+- target groups
+- political history
+
+# DS and RSE Competences in relation to the Research Cycle
+
+# Case Study
+
+How much RSE and DS
+
+# Discussion
+
+TODO: fill
+What is the difference between the research phases, competences and in general between DS and RSE
+Should there be a third comparison to scientific computing?
+
+Alignment vs. identiy between DS and RSE
 

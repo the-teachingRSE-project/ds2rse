@@ -4,7 +4,8 @@ Holds the paper project for INFORMATIK 2025 for comparative analysis of DS compe
 ## HOW TO CONTRIBUTE
 
 - edit index.qmd following quarto markdown rules
-- in the yaml header of index.qmd you can add authors and further bib-files
+- in the add further bib-files
+- in authors.tex you can add yourself
 - NOTE: if you have problems with the quarto pipeline, just add the content to index.qmd file and I will check this out
 
 ## HOW to run

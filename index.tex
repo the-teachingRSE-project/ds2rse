@@ -6,6 +6,9 @@
         english,biblatex
     ]{lni}
 
+\addbibresource{my-paper.bib}
+
+
 % Standard packages
 \usepackage{graphicx}
 \usepackage{longtable}
@@ -65,6 +68,12 @@
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
+% solve \tightlist error
+\providecommand{\tightlist}{%
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% solve \pandocbounded error
+\providecommand{\pandocbounded}[1]{#1}
 
 
 
@@ -74,16 +83,7 @@
         \title[]{The difference between RSE and Data Science}
     
     
-    \author[1,2]{Firstname1 Lastname1}{firstname1.lastname1@affiliation1.org}{0000-0000-0000-0000}
-    \author[2]{Firstname2 Lastname2}{firstname2.lastname2@affiliation2.org}{0000-0000-0000-0000}
-    \author[3]{Firstname3 Lastname3}{firstname3.lastname3@affiliation1.org}{0000-0000-0000-0000}
-    \author[1]{Firstname4 Lastname4}{firstname4.lastname4@affiliation1.org}{0000-0000-0000-0000}%
-    \affil[1]{Universität 1\\Abteilung\\Straße\\Postleitzahl Ort\\Land}
-    \affil[2]{University 2 \\Department\\Address\\Country}
-    \affil[3]{University 3\\Department\\Address\\Country}
-
-
-
+    \include{authors.tex}
 
     \maketitle
 
@@ -160,8 +160,118 @@
 \end{Highlighting}
 \end{Shaded}
 
+    \section{Formeln}\label{formeln}
+
+    \section{RSE and DS embeddings in the Research
+    Cycle}\label{rse-and-ds-embeddings-in-the-research-cycle}
+
+    Both RSE and DS can be conceptualized as a cross-cutting concern in
+    many disciplines. However, the definition and relevance of these
+    issues can be generalized based on the function they fulfill in the
+    research cycle Figure~\ref{fig-research_cycle}.
+
+    \newpage
+
+    \begin{figure}
+
+    \centering{
+
+    \includegraphics[width=0.7\linewidth,height=\textheight,keepaspectratio]{img/research_cycle_wildt.png}
+
+    }
+
+    \caption{\label{fig-research_cycle}The research cycle
+    \autocite{wildt2009forschendes} integrates the typical research
+    process with the learning process.}
+
+    \end{figure}%
+
+    There are different research processes depending on the discipline
+    and the research question. However, \autocite{Dehne2021} showed that
+    most of the research processes contain the following phases:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      conceptualization (developing research questions, concepts)
+    \item
+      design (developing the tools, instruments and concrete process
+      models)
+    \item
+      implementation (executing the experiment, study)
+    \item
+      analysis \& interpretation
+    \item
+      dissemination (publishing, distributing, peer-review)
+    \item
+      reflexion and improvements
+    \end{enumerate}
+
+    For example, in the case of the field of learning technologies, the
+    design phase often consists of extensive software development of
+    different tools for learning. In this situation developing complex
+    tools for learning can be considered as research software
+    engineering. The analysis of what learners can gain from using these
+    technologies can be conceived as an educational research in its own
+    right. This example highlights the differences of scale in both the
+    weight of the different process phases (here: phase 2) and the
+    relevance of research engineering. It also shows a situation where
+    research software engineering clearly differs from data science. A
+    typical data science background would not enable researchers to
+    build full-stack software that solves inefficiencies or
+    hard-to-teach problems in education.
+
+    In the second example a GPT-like attention model is trained to
+    classify data gained from the James-Webb telescope. Due to vast
+    amounts of data and the continuous stream of new data research
+    software engineering is needed to implement a pipeline for data
+    cleaning, data warehousing and in-time analysis. In this case, the
+    analysis \& interpretation phase (4) has much more relevance.
+    Another point of this is example is that data science competencies
+    such as vectorization of algorithms, statistical analysis etc. are
+    interconnected with competencies from software engineering such as
+    software architectures, software project management, and database
+    programming.
+
+    The main argument behind these examples is that data science and
+    research software engineering have a lot in common in terms of
+    software development for science but show major differences
+    depending on the research process in question.
+
+    \section{What has been discussed}\label{what-has-been-discussed}
+
+    TODO insert: Levels of Differences between RSE and DS:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      institutional
+    \item
+      disciplinary connections
+    \item
+      target groups
+    \item
+      political history
+    \end{itemize}
+
+    \section{DS and RSE Competences in relation to the Research
+    Cycle}\label{ds-and-rse-competences-in-relation-to-the-research-cycle}
+
+    \section{Case Study}\label{case-study}
+
+    How much RSE and DS
+
+    \section{Discussion}\label{discussion}
+
+    TODO: fill What is the difference between the research phases,
+    competences and in general between DS and RSE Should there be a
+    third comparison to scientific computing?
+
+    Alignment vs.~identiy between DS and RSE
 
 % Bibliography
-        \printbibliography
-    
+
+    \printbibliography
+
 \end{document}
