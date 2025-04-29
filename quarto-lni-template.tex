@@ -1,0 +1,82 @@
+% !TeX encoding = UTF-8
+% !TeX program = pdflatex
+% !BIB program = biber
+
+\documentclass[
+    $if(classoption)$
+    $for(classoption)$$classoption$$sep$,$endfor$
+    $endif$
+]{$documentclass$}
+
+% Standard packages
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
+\usepackage{framed} % Needed for code blocks
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+
+
+
+\begin{document}
+
+% Title
+    $if(title)$
+    \title[$shorttitle$]{$title$}
+    $endif$
+
+    $if(subtitle)$
+    \subtitle{$subtitle$}
+    $endif$
+
+    \author[1,2]{Firstname1 Lastname1}{firstname1.lastname1@affiliation1.org}{0000-0000-0000-0000}
+    \author[2]{Firstname2 Lastname2}{firstname2.lastname2@affiliation2.org}{0000-0000-0000-0000}
+    \author[3]{Firstname3 Lastname3}{firstname3.lastname3@affiliation1.org}{0000-0000-0000-0000}
+    \author[1]{Firstname4 Lastname4}{firstname4.lastname4@affiliation1.org}{0000-0000-0000-0000}%
+    \affil[1]{Universität 1\\Abteilung\\Straße\\Postleitzahl Ort\\Land}
+    \affil[2]{University 2 \\Department\\Address\\Country}
+    \affil[3]{University 3\\Department\\Address\\Country}
+
+
+
+
+    \maketitle
+
+% Abstract
+    $if(abstract)$
+    \begin{abstract}
+        $abstract$
+    \end{abstract}
+    $endif$
+
+% Keywords
+    $if(keywords)$
+    \begin{keywords}
+        $for(keywords)$$keywords$$sep$ \and $endfor$
+    \end{keywords}
+    $endif$
+
+% Body
+    $body$
+
+% Bibliography
+    $if(bibliography)$
+    \printbibliography
+    $endif$
+
+\end{document}

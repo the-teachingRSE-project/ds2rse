@@ -1,0 +1,76 @@
+---
+title: "The difference between RSE and Data Science"
+keywords: [LNI Guidelines, LaTeX Vorlage]
+abstract: |
+  Die LaTeX-Klasse `lni` setzt die Layout-Vorgaben für Beiträge in LNI Konferenzbänden um.
+  Dieses Dokument beschreibt ihre Verwendung und ist ein Beispiel für die entsprechende Darstellung.
+
+format:
+  pdf:
+    template: quarto-lni-template.tex
+    documentclass: lni
+    classoption: [english, biblatex]
+    cite-method: biblatex
+    keep-tex: true
+    pdf-engine: pdflatex
+    biblio-style: lni
+    bibliography: my-paper.bib
+    include-in-header:
+      - text: |
+          $highlighting-macros$
+
+author:
+- name: Julian Dehne
+  orcid: 0000-0001-9265-9619
+  email: julian.dehne@gi.de
+  affiliation: "Gesellschaft für Informatik" # direct field
+  affiliation-index: 1
+- name: Julian Dehne 2
+  orcid: 0000-0001-9265-9619-2
+  email: julian.dehne@gi.de
+  affiliation: "deRSE"
+  affiliation-index: 2
+
+
+
+---
+
+# Verwendung
+
+Die GI gibt unter http://www.gi-ev.de/LNI Vorgaben für die Formatierung von Dokumenten in der LNI Reihe.
+
+# Demonstrationen {#demos}
+
+
+# Demonstration der Einhaltung der Richtlinien {#lniconformance}
+
+## Literaturverzeichnis
+
+Beispielhafte Zitierungen: @Ez10, @AB00.
+
+# Abbildungen
+
+![Demographik](four_pillars_rse.png){#fig-demo width=80%}
+
+# Tabellen
+
+| Überschriftsebenen | Beispiel       | Schriftgröße und -art |
+|--------------------|----------------|-----------------------|
+| Titel (linksbündig) | Der Titel ...   | 14 pt, Fett           |
+| Überschrift 1      | 1 Einleitung    | 12 pt, Fett           |
+| Überschrift 2      | 2.1 Titel       | 10 pt, Fett           |
+
+: Die Überschriftsarten {#tab-demo}
+
+# Programmcode
+
+```java
+public class Hello {
+    public static void main (String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
+
+# Formeln
+
