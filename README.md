@@ -34,3 +34,4 @@ Holds the paper project for INFORMATIK 2025 for comparative analysis of DS compe
 ## Known Problems
 
 - I had to install ngerman manually with tinytex (first finding out where quarto put the tinytex executables)
+- Crossreferencing chapters does not work (for figures it does for some reason)

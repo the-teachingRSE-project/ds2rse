@@ -71,7 +71,7 @@ Levels of Differences between RSE and DS:
 
 {{< include ds2rse_curriculas.qmd >}}
 
-
+{{< include ds2rse_curriculas2.qmd >}}
 
 # Case Study
 
@@ -85,3 +85,8 @@ Should there be a third comparison to scientific computing?
 
 Alignment vs. identiy between DS and RSE
 
+\printbibliography
+
+# Appendix {#sec:appendix}
+
+{{< include glossary.qmd >}}
