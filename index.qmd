@@ -57,11 +57,6 @@ public class Hello {
     }
 }
 ```
-
-# Formeln
-
-{{< include research_process.qmd >}}
-
 # What has been discussed
 
 TODO insert:
@@ -72,11 +67,15 @@ Levels of Differences between RSE and DS:
 - target groups
 - political history
 
-# DS and RSE Competences in relation to the Research Cycle
+{{< include research_process.qmd >}}
+
+{{< include ds2rse_curriculas.qmd >}}
+
+
 
 # Case Study
 
-How much RSE and DS
+How much RSE and DS are in Physics ? @florian Does this apply
 
 # Discussion
 

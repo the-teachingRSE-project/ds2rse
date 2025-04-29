@@ -160,7 +160,21 @@
 \end{Highlighting}
 \end{Shaded}
 
-    \section{Formeln}\label{formeln}
+    \section{What has been discussed}\label{what-has-been-discussed}
+
+    TODO insert: Levels of Differences between RSE and DS:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      institutional
+    \item
+      disciplinary connections
+    \item
+      target groups
+    \item
+      political history
+    \end{itemize}
 
     \section{RSE and DS embeddings in the Research
     Cycle}\label{rse-and-ds-embeddings-in-the-research-cycle}
@@ -229,38 +243,258 @@
     cleaning, data warehousing and in-time analysis. In this case, the
     analysis \& interpretation phase (4) has much more relevance.
     Another point of this is example is that data science competencies
-    such as vectorization of algorithms, statistical analysis etc. are
-    interconnected with competencies from software engineering such as
-    software architectures, software project management, and database
-    programming.
+    such as vectorization of algorithms, statistical analysis, machine
+    learning etc. are interconnected with competencies from software
+    engineering such as software architectures, software project
+    management, and database programming. In this case the distinction
+    between DS competencies and RSE competencies is very fluid.
 
     The main argument behind these examples is that data science and
     research software engineering have a lot in common in terms of
-    software development for science but show major differences
-    depending on the research process in question.
+    software development for science but show major differences where
+    they are placed in the research process. This reframes the questions
+    like ``how much programming is in DS'' or ``how much engineering is
+    in RSE'' to a more structured approach of which cross-cutting
+    functions exist in the research cycle that require computational
+    means and which functions are part of the core identity of data
+    scientists or research software engineers.
 
-    \section{What has been discussed}\label{what-has-been-discussed}
+    As a working hypothesis based on the example above and experience in
+    the field we assume the following: {[}H1{]} RSE focuses more on
+    concept development (if the research is computationally heavy),
+    design, implementation and dissemination, i.e.~phases 1,2,3,6
+    whereas DS focuses more on analysis, interpretation and
+    dissemination (phases 4,5,6). Moreover, a second hypothesis would be
+    that RSE often plays a role in shaping the context of the research
+    {[}H2a{]}, such as integrating projects with similar concerns, open
+    source development and institutional needs. In contrast, data
+    science is exclusively embedded in the research {[}H2b{]}.
 
-    TODO insert: Levels of Differences between RSE and DS:
-
-    \begin{itemize}
-    \tightlist
-    \item
-      institutional
-    \item
-      disciplinary connections
-    \item
-      target groups
-    \item
-      political history
-    \end{itemize}
+    The focal point of the following chapter will revisiting existing
+    ideas for DS and RSE curricula and map the competences outlined
+    there to the phases in the research process. This should give the
+    abstract discussion above empirical grounding and can be used to
+    test the hypothesis.
 
     \section{DS and RSE Competences in relation to the Research
     Cycle}\label{ds-and-rse-competences-in-relation-to-the-research-cycle}
 
+    In the following the contents of \autocite{GI2021DataScience} and
+    \autocite{petersen_2025_15025246} are parsed as the most current
+    examples of data science curricula in the German research context.
+    The contents are inspected for obvious links to the research process
+    and interpreted if no explicit connections are made.
+
+    For the RSE side the contents of \autocite{Goth2024RSE} are used as
+    a basis as well as the current state of the
+    \href{https://github.com/juliandehne/RSE-Masters/blob/main/curriculum.md}{RSE-Curriculums
+    project}.
+
+    \emph{1. Conceptualization}
+
+    \textbf{RSE Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Understanding the research cycle (\texttt{RC})
+    \item
+      Conducting and leading research (\texttt{NEW})
+    \item
+      Software re-use strategies (\texttt{SRU})
+    \end{itemize}
+
+    \textbf{Data Science Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Understanding the Data Science Lifecycle and methods selection
+    \item
+      Problem framing and formulation of hypotheses
+    \item
+      Fundamentals of statistics and domain knowledge integration (GI
+      2021)
+    \item
+      Awareness of data context, purpose, and interdisciplinary
+      implications (ethics, economics, legal)
+    \end{itemize}
+
+    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+    \emph{2. Design}
+
+    \textbf{RSE Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Creating documented code building blocks (\texttt{DOCBB})
+    \item
+      Software behavior analysis (\texttt{MOD})
+    \item
+      Building distributable software (\texttt{DIST})
+    \item
+      Tool and environment configuration (\texttt{SWLC},
+      \texttt{SWREPOS})
+    \end{itemize}
+
+    \textbf{Data Science Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Data integration \& feature engineering (ETL, pipelines, quality
+      checks) --- 5 ECTS
+    \item
+      Design of data workflows and modeling processes
+    \item
+      Visualization theory and editorial thinking (exploratory analysis)
+      --- 2.5 ECTS
+    \item
+      Algorithm selection and objective function definition (ML core)
+      --- 10 ECTS
+    \item
+      Designing responsible data usage frameworks (ethics, privacy) ---
+      5 ECTS + 2.5 ECTS
+    \end{itemize}
+
+    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+    \emph{3. Implementation}
+
+    \textbf{RSE Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Source control, testing, CI/CD (\texttt{SWREPOS}, \texttt{DIST},
+      \texttt{DOCBB})
+    \item
+      Working in interdisciplinary teams (\texttt{TEAM})
+    \item
+      Project and task management (\texttt{PM})
+    \end{itemize}
+
+    \textbf{Data Science Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Deployment of data pipelines and operational models
+    \item
+      Tool usage (Python, R, Julia, ML libraries like scikit-learn,
+      Dask)
+    \item
+      Executing experiments using machine learning, deep learning ---
+      10--15 ECTS
+    \item
+      Applying project management and interdisciplinary communication
+      --- 2.5 ECTS
+    \end{itemize}
+
+    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+    \emph{4. Analysis \& Interpretation}
+
+    \textbf{RSE Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Software behavior interpretation (\texttt{MOD})
+    \item
+      Documentation of research results and workflows
+    \end{itemize}
+
+    \textbf{Data Science Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Explorative Data Analysis (EDA), multivariate visualizations ---
+      2.5 ECTS
+    \item
+      Deep understanding of model inference and optimization strategies
+    \item
+      Time series analysis, pattern mining, and argumentation (Data
+      Mining) --- 5 ECTS
+    \item
+      Ethical analysis of bias, fairness, and model accountability --- 5
+      ECTS
+    \end{itemize}
+
+    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+    \emph{5. Dissemination}
+
+    \textbf{RSE Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Software publication and citation (\texttt{SP})
+    \item
+      Use of domain repositories (\texttt{DOMREP})
+    \item
+      Teaching and communication (\texttt{TEACH}, \texttt{USERS})
+    \end{itemize}
+
+    \textbf{Data Science Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Reporting results and dashboards
+    \item
+      FAIR principles and reproducibility practices
+    \item
+      Preparation of software and models for open science platforms
+    \item
+      Communicating findings across disciplinary and public boundaries
+    \end{itemize}
+
+    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+    \emph{6. Reflexion and Improvements}
+
+    \textbf{RSE Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Continuous integration and testing (\texttt{SWLC}, \texttt{MOD})
+    \item
+      Feedback-informed iterative development
+    \item
+      Mentoring, community involvement, and ethics (\texttt{TEAM},
+      \texttt{USERS})
+    \end{itemize}
+
+    \textbf{Data Science Competencies:}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Critical reflection on model performance and bias
+    \item
+      Model tuning, reengineering, and lifecycle updates
+    \item
+      Reinforcement learning and emerging AI models --- 5 ECTS
+    \item
+      Responsible innovation, economic awareness, data sovereignty ---
+      2.5 ECTS
+    \item
+      Application of Data Science in real-world domain projects --- min.
+      15 ECTS
+    \end{itemize}
+
+    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
     \section{Case Study}\label{case-study}
 
-    How much RSE and DS
+    How much RSE and DS are in Physics ? \textcite{florian} Does this
+    apply
 
     \section{Discussion}\label{discussion}
 
