@@ -13,6 +13,7 @@ Holds the paper project for INFORMATIK 2025 for comparative analysis of DS compe
 - install quarto with tinytex extension
 - run quarto render index.qmd --to pdf (should produce a pdf in LNI format)
 - debug problems in generated index.tex file
+- have a look at syntax_example.qmd for the most important quarto stuff
 
 
 ## Content TODOs
