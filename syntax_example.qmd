@@ -1,0 +1,36 @@
+# Verwendung
+
+Die GI gibt unter http://www.gi-ev.de/LNI Vorgaben für die Formatierung von Dokumenten in der LNI Reihe.
+
+# Demonstrationen {#demos}
+
+
+# Demonstration der Einhaltung der Richtlinien {#lniconformance}
+
+## Literaturverzeichnis
+
+Beispielhafte Zitierungen: @Ez10, @AB00.
+
+# Abbildungen
+
+![Demographik](four_pillars_rse.png){#fig-demo width=80%}
+
+# Tabellen
+
+| Überschriftsebenen | Beispiel       | Schriftgröße und -art |
+|--------------------|----------------|-----------------------|
+| Titel (linksbündig) | Der Titel ...   | 14 pt, Fett           |
+| Überschrift 1      | 1 Einleitung    | 12 pt, Fett           |
+| Überschrift 2      | 2.1 Titel       | 10 pt, Fett           |
+
+: Die Überschriftsarten {#tab-demo}
+
+# Programmcode
+
+```java
+public class Hello {
+    public static void main (String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```

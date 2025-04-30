@@ -21,45 +21,16 @@ format:
 
 ---
 
-# Verwendung
 
-Die GI gibt unter http://www.gi-ev.de/LNI Vorgaben für die Formatierung von Dokumenten in der LNI Reihe.
-
-# Demonstrationen {#demos}
-
-
-# Demonstration der Einhaltung der Richtlinien {#lniconformance}
-
-## Literaturverzeichnis
-
-Beispielhafte Zitierungen: @Ez10, @AB00.
-
-# Abbildungen
-
-![Demographik](four_pillars_rse.png){#fig-demo width=80%}
-
-# Tabellen
-
-| Überschriftsebenen | Beispiel       | Schriftgröße und -art |
-|--------------------|----------------|-----------------------|
-| Titel (linksbündig) | Der Titel ...   | 14 pt, Fett           |
-| Überschrift 1      | 1 Einleitung    | 12 pt, Fett           |
-| Überschrift 2      | 2.1 Titel       | 10 pt, Fett           |
-
-: Die Überschriftsarten {#tab-demo}
-
-# Programmcode
-
-```java
-public class Hello {
-    public static void main (String[] args) {
-        System.out.println("Hello World!");
-    }
-}
-```
 # What has been discussed
 
-TODO insert:
+When discussing competences for research software engineers as the basis of a curriculum to train Research Software engineers (RSE) professionals it is logical to look at the data science movement for inspiration. Similar to RSE, Data Science (DS) is a cross-cutting field that focuses on a special area within the sciences or data oriented businesses.
+
+The major computing organizations ACM and IEEE published a joint recommended computing curriculum which already included data science: the [cc2020 Computing Curriculum](https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf) already lists DS as one of the special cases for computing competences. Whilst DS is mentioned, research software engineering was absent.
+
+Even though it is intuitively clear that RSE is not a subclass of DS, there have been few attempts of differentiating the fields with regard to their competency sets.
+
+TODO insert previous research to RSE and DS:
 Levels of Differences between RSE and DS:
 
 - institutional
@@ -69,24 +40,14 @@ Levels of Differences between RSE and DS:
 
 {{< include research_process.qmd >}}
 
-{{< include ds2rse_curriculas.qmd >}}
-
-{{< include ds2rse_curriculas2.qmd >}}
-
-# Case Study
-
-How much RSE and DS are in Physics ? @florian Does this apply
-
-# Discussion
-
-TODO: fill
-What is the difference between the research phases, competences and in general between DS and RSE
-Should there be a third comparison to scientific computing?
-
-Alignment vs. identiy between DS and RSE
+{{< include discussion.qmd >}}
 
 \printbibliography
 
 # Appendix {#sec:appendix}
 
 {{< include glossary.qmd >}}
+
+{{< include ds2rse_curriculas.qmd >}}
+
+{{< include ds2rse_curriculas2.qmd >}}

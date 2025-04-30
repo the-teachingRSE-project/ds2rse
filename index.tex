@@ -27,46 +27,6 @@
 
 \usepackage{framed} % Needed for code blocks
 
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{241,243,245}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
-\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
 % solve \tightlist error
 \providecommand{\tightlist}{%
@@ -101,68 +61,29 @@
     \end{keywords}
     
 % Body
-    \section{Verwendung}\label{verwendung}
-
-    Die GI gibt unter http://www.gi-ev.de/LNI Vorgaben für die
-    Formatierung von Dokumenten in der LNI Reihe.
-
-    \section{Demonstrationen}\label{demos}
-
-    \section{Demonstration der Einhaltung der
-    Richtlinien}\label{lniconformance}
-
-    \subsection{Literaturverzeichnis}\label{literaturverzeichnis}
-
-    Beispielhafte Zitierungen: \textcite{Ez10}, \textcite{AB00}.
-
-    \section{Abbildungen}\label{abbildungen}
-
-    \begin{figure}
-
-    \centering{
-
-    \includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{four_pillars_rse.png}
-
-    }
-
-    \caption{\label{fig-demo}Demographik}
-
-    \end{figure}%
-
-    \section{Tabellen}\label{tabellen}
-
-    \begin{longtable}[]{@{}lll@{}}
-    \caption{Die Überschriftsarten \{\#tab-demo\}}\tabularnewline
-    \toprule\noalign{}
-    Überschriftsebenen & Beispiel & Schriftgröße und -art \\
-    \midrule\noalign{}
-    \endfirsthead
-    \toprule\noalign{}
-    Überschriftsebenen & Beispiel & Schriftgröße und -art \\
-    \midrule\noalign{}
-    \endhead
-    \bottomrule\noalign{}
-    \endlastfoot
-    Titel (linksbündig) & Der Titel \ldots{} & 14 pt, Fett \\
-    Überschrift 1 & 1 Einleitung & 12 pt, Fett \\
-    Überschrift 2 & 2.1 Titel & 10 pt, Fett \\
-    \end{longtable}
-
-    \section{Programmcode}\label{programmcode}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{public} \KeywordTok{class}\NormalTok{ Hello }\OperatorTok{\{}
-    \KeywordTok{public} \DataTypeTok{static} \DataTypeTok{void} \FunctionTok{main} \OperatorTok{(}\BuiltInTok{String}\OperatorTok{[]}\NormalTok{ args}\OperatorTok{)} \OperatorTok{\{}
-        \BuiltInTok{System}\OperatorTok{.}\FunctionTok{out}\OperatorTok{.}\FunctionTok{println}\OperatorTok{(}\StringTok{"Hello World!"}\OperatorTok{);}
-    \OperatorTok{\}}
-\OperatorTok{\}}
-\end{Highlighting}
-\end{Shaded}
-
     \section{What has been discussed}\label{what-has-been-discussed}
 
-    TODO insert: Levels of Differences between RSE and DS:
+    When discussing competences for research software engineers as the
+    basis of a curriculum to train Research Software engineers (RSE)
+    professionals it is logical to look at the data science movement for
+    inspiration. Similar to RSE, Data Science (DS) is a cross-cutting
+    field that focuses on a special area within the sciences or data
+    oriented businesses.
+
+    The major computing organizations ACM and IEEE published a joint
+    recommended computing curriculum which already included data
+    science: the
+    \href{https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf}{cc2020
+    Computing Curriculum} already lists DS as one of the special cases
+    for computing competences. Whilst DS is mentioned, research software
+    engineering was absent.
+
+    Even though it is intuitively clear that RSE is not a subclass of
+    DS, there have been few attempts of differentiating the fields with
+    regard to their competency sets.
+
+    TODO insert previous research to RSE and DS: Levels of Differences
+    between RSE and DS:
 
     \begin{itemize}
     \tightlist
@@ -183,8 +104,6 @@
     many disciplines. However, the definition and relevance of these
     issues can be generalized based on the function they fulfill in the
     research cycle Figure~\ref{fig-research_cycle}.
-
-    \newpage
 
     \begin{figure}
 
@@ -276,7 +195,134 @@
     abstract discussion above empirical grounding and can be used to
     test the hypothesis.
 
-    \section{DS and RSE Competences in relation to the Research
+    \section{Discussion}\label{discussion}
+
+    The lists of extracted DS and RSE competency clusters can be found
+    in Appendix. We also plan to publish a full table of RSE
+    competencies (and possible DS competencies) sorted by clusters. In
+    terms of this top-level discussion the competency clusters are
+    sufficient to compare the differences with regard to the research
+    cycle.
+
+    H1 could not be confirmed in the strict sense. Although the compiled
+    competency clusters show that there is a stronger focus on certain
+    stages of the research process for both RSE and DS competencies,
+    both can be interpreted more generally to encompass all stages of
+    the research cycle. Moreover, there are some competency description
+    that seem very similar such as the focus on the research cycle for
+    RSE and the data science lifecycle for DS. In terms of methodology
+    simply comparing the existing mentions of competencies should not be
+    regarded as the best possible proxy to the actual distribution in
+    the field. A survey study asking practitioners and researchers where
+    in the process they would place DS and RSE would yield far more
+    convincing results. Still, self-evaluation might also be biased
+    depending on the identity of the people working the in the
+    respective fields.
+
+    The most clear differences between DS and RSE are found in the
+    design stage and the analysis stage. The design stage holds most of
+    the competency clusters the RSE community defined. The DS
+    counterpart is very general and many competencies listed there could
+    in fact be construed as RSE-competencies that are imported for more
+    complex cases. In contrast, the analysis stage is more connected to
+    DS. This can be explained by the historic challenges software
+    development faces in terms of clear-cut evaluation but also by the
+    distribution of labor: if the RSE-job ends with the developed
+    software and the core experiment or study uses the software as a
+    tool, the analysis part is then handed over to the respective field
+    specialists.
+
+    It is very hard to both evaluate the impact of technology and also
+    to evaluate the technology itself and its impact on the study.
+    Comprehensive methods like Directed Acyclic Graph Modellings (DAGs)
+    or Instrumental Variables try to tackle these nested evaluation
+    issues but have not found widespread use.
+
+    H2 also had to be rejected: in fact, DS seems to contain more
+    aspects outside the research cycle than RSE. Even though the core
+    analysis of data component is very embedded in research, DS has a
+    lot of institutional, political and legal challenges. Research Data
+    Management (RDM) could be named as the most prominent of these. Due
+    to the strong overlap of non-research related competencies, a joint
+    list competency clusters was compiled that lists the competences
+    that are not research cycle related (also in the appendix).
+
+    The long list of transversal competencies begs the question if there
+    are also technical competences that overlap. Even though this was
+    not the focus of the analysis, these can be easily spotted by
+    investigating the shift of data analysis to artificial intelligence
+    based methods. Training, fine-tuning and mainstreaming large
+    language models requires more and more computing power, stable
+    infrastructure and network components. On the other hand, CPU-based
+    software-engineering becomes less demanding and also profits from
+    AI-generated algorithm and code development. However, not all
+    software engineering boils down to the current AI-hype. In summary,
+    there is no clear way of generalizing whether DS or RSE need more
+    and deeper understanding of computer science.
+
+    \printbibliography
+
+    \section{Appendix}\label{sec:appendix}
+
+    \subsection{Glossary}\label{glossary}
+
+    \textbf{C} A general-purpose programming language often used for
+    system-level development.
+
+    \textbf{Cpp} C++ --- an extension of C that supports object-oriented
+    programming.
+
+    \textbf{DIST} Software distribution --- the practice of packaging
+    and delivering software and its dependencies.
+
+    \textbf{DOCBB} Documentation and best practices --- ensuring code is
+    understandable and maintainable.
+
+    \textbf{DOMREP} Domain repositories --- platforms that store and
+    share domain-specific research data.
+
+    \textbf{HPC} High-Performance Computing --- using supercomputers and
+    parallel processing for complex tasks.
+
+    \textbf{MOD} Modularity --- the design principle of separating
+    software into interchangeable, functional components.
+
+    \textbf{NEW} Novel research --- work that contributes original
+    insights to a scientific domain.
+
+    \textbf{PM} Project Management --- planning, executing, and
+    overseeing projects effectively.
+
+    \textbf{Python} A high-level programming language widely used in
+    data science and scripting.
+
+    \textbf{R} A programming language and environment for statistical
+    computing and graphics.
+
+    \textbf{RSE} Research Software Engineer --- someone who applies
+    software engineering skills to scientific research.
+
+    \textbf{SP} Software publication --- the process of preparing and
+    disseminating software artifacts.
+
+    \textbf{SRU} Software reuse --- the practice of using existing
+    software components in new projects.
+
+    \textbf{STEM} Science, Technology, Engineering, and Mathematics.
+
+    \textbf{SWREPOS} Software repositories --- systems for storing and
+    managing software code and versions.
+
+    \textbf{TEAM} Teamwork --- the ability to collaborate effectively in
+    a group setting.
+
+    \textbf{TEACH} Teaching --- the skill of communicating knowledge and
+    helping others learn.
+
+    \textbf{USERS} End users --- the scientists or researchers who rely
+    on software tools.
+
+    \subsection{DS and RSE Competences in relation to the Research
     Cycle}\label{ds-and-rse-competences-in-relation-to-the-research-cycle}
 
     In the following the contents of \autocite{GI2021DataScience} and
@@ -291,6 +337,11 @@
     project}. For the RSE competencies the RSE community has developed
     short codes. These are attached in the glossary in the appendix.
 
+    In terms of methodology it should be noted that this approach
+    follows a community-driven consensus building. It should not be
+    mistaken for a review study with measurable intersubjectivity based
+    on instruments like \href{https://www.prisma-statement.org}{PRISMA}.
+
     \emph{1. Conceptualization}
 
     \textbf{RSE Competencies:}
@@ -301,8 +352,6 @@
       Understanding the research cycle (\texttt{RC})
     \item
       Conducting and leading research (\texttt{NEW})
-    \item
-      Software re-use strategies (\texttt{SRU})
     \end{itemize}
 
     \textbf{Data Science Competencies:}
@@ -323,6 +372,10 @@
     \begin{itemize}
     \tightlist
     \item
+      Software Design
+    \item
+      Software re-use strategies (\texttt{SRU})
+    \item
       Creating documented code building blocks (\texttt{DOCBB})
     \item
       Software behavior analysis (\texttt{MOD})
@@ -331,6 +384,8 @@
     \item
       Tool and environment configuration (\texttt{SWLC},
       \texttt{SWREPOS})
+    \item
+      Full-Stack Programming
     \end{itemize}
 
     \textbf{Data Science Competencies:}
@@ -348,6 +403,8 @@
       Algorithm selection and objective function definition (ML core)
     \item
       Designing responsible data usage frameworks (ethics, privacy)
+    \item
+      Data-oriented Programming (R, Python, Matlab etc.)
     \end{itemize}
 
     \emph{3. Implementation}
@@ -466,7 +523,7 @@
       Application of Data Science in real-world domain projects
     \end{itemize}
 
-    \section{DS and RSE competencies outside the Research
+    \subsection{DS and RSE competencies outside the Research
     Cycle}\label{ds-and-rse-competencies-outside-the-research-cycle}
 
     This section collects transversal competencies in Data Science and
@@ -494,7 +551,7 @@
     \begin{itemize}
     \tightlist
     \item
-      National and international data protection laws (e.g., GDPR)
+      National and international data protection laws
     \item
       Differentiation between personal and non-personal data
     \item
@@ -531,94 +588,23 @@
       Interdisciplinary labs as agile learning environments
     \end{itemize}
 
-    \emph{3. Economic Understanding}
+    \emph{3. Computer Science Specialties}
 
-    \textbf{Data Economy}
+    \textbf{Various CS specializations such as}
 
     \begin{itemize}
     \tightlist
     \item
-      Understanding digital value creation
+      database programming
     \item
-      Awareness of data-driven business models
+      constraint programming
     \item
-      Critical view on market structures and power in data economy
+      machine learning
+    \item
+      algorithmic design
+    \item
+      \ldots{}
     \end{itemize}
-
-    \section{Case Study}\label{case-study}
-
-    How much RSE and DS are in Physics ? \textcite{florian} Does this
-    apply
-
-    \section{Discussion}\label{discussion}
-
-    TODO: fill What is the difference between the research phases,
-    competences and in general between DS and RSE Should there be a
-    third comparison to scientific computing?
-
-    Alignment vs.~identiy between DS and RSE
-
-    \printbibliography
-
-    \section{Appendix}\label{sec:appendix}
-
-    \subsection{Glossary}\label{glossary}
-
-    \textbf{C} A general-purpose programming language often used for
-    system-level development.
-
-    \textbf{Cpp} C++ --- an extension of C that supports object-oriented
-    programming.
-
-    \textbf{DIST} Software distribution --- the practice of packaging
-    and delivering software and its dependencies.
-
-    \textbf{DOCBB} Documentation and best practices --- ensuring code is
-    understandable and maintainable.
-
-    \textbf{DOMREP} Domain repositories --- platforms that store and
-    share domain-specific research data.
-
-    \textbf{HPC} High-Performance Computing --- using supercomputers and
-    parallel processing for complex tasks.
-
-    \textbf{MOD} Modularity --- the design principle of separating
-    software into interchangeable, functional components.
-
-    \textbf{NEW} Novel research --- work that contributes original
-    insights to a scientific domain.
-
-    \textbf{PM} Project Management --- planning, executing, and
-    overseeing projects effectively.
-
-    \textbf{Python} A high-level programming language widely used in
-    data science and scripting.
-
-    \textbf{R} A programming language and environment for statistical
-    computing and graphics.
-
-    \textbf{RSE} Research Software Engineer --- someone who applies
-    software engineering skills to scientific research.
-
-    \textbf{SP} Software publication --- the process of preparing and
-    disseminating software artifacts.
-
-    \textbf{SRU} Software reuse --- the practice of using existing
-    software components in new projects.
-
-    \textbf{STEM} Science, Technology, Engineering, and Mathematics.
-
-    \textbf{SWREPOS} Software repositories --- systems for storing and
-    managing software code and versions.
-
-    \textbf{TEAM} Teamwork --- the ability to collaborate effectively in
-    a group setting.
-
-    \textbf{TEACH} Teaching --- the skill of communicating knowledge and
-    helping others learn.
-
-    \textbf{USERS} End users --- the scientists or researchers who rely
-    on software tools.
 
 % Bibliography
 

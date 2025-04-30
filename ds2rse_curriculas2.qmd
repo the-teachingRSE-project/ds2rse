@@ -1,5 +1,5 @@
 
-# DS and RSE competencies outside the Research Cycle
+## DS and RSE competencies outside the Research Cycle
 
 This section collects transversal competencies in Data Science and Research Software Engineering (RSE) that support research but are not tied to a specific phase of the research process.
 
@@ -35,13 +35,7 @@ _2. Interdisciplinary Collaboration_
 - Research data management within domains
 - Interdisciplinary labs as agile learning environments
 
-_3. Economic Understanding_
-
-- Understanding digital value creation
-- Awareness of data-driven business models
-- Critical view on market structures and power in data economy
-
-_4. Computer Science Specialties_
+_3. Computer Science Specialties_
 
 **Various CS specializations such as**
 

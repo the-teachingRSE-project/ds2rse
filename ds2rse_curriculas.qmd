@@ -1,11 +1,13 @@
 
-# DS and RSE Competences in relation to the Research Cycle
+## DS and RSE Competences in relation to the Research Cycle
 
 In the following the contents of [@GI2021DataScience] and [@petersen_2025_15025246] are parsed as the most current examples
 of data science curricula in the German research context. The contents are inspected for obvious links to the research process
 and interpreted if no explicit connections are made.
 
 For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the [RSE-Curriculums project](https://github.com/juliandehne/RSE-Masters/blob/main/curriculum.md). For the RSE competencies the RSE community has developed short codes. These are attached in the glossary in the appendix.
+
+In terms of methodology it should be noted that this approach follows a community-driven consensus building. It should not be mistaken for a review study with measurable intersubjectivity based on instruments like [PRISMA](https://www.prisma-statement.org).
 
 
 _1. Conceptualization_

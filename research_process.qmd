@@ -2,8 +2,6 @@
 
 Both RSE and DS can be conceptualized as a cross-cutting concern in many disciplines. However, the definition and relevance of these issues can be generalized based on the function they fulfill in the research cycle @fig-research_cycle.
 
-\newpage
-
 ![The research cycle [@wildt2009forschendes] integrates the typical research process with the learning process.](img/research_cycle_wildt.png){#fig-research_cycle width=70%}
 
 There are different research processes depending on the discipline and the research question. However, [@Dehne2021] showed that most of the research processes contain the following phases:
