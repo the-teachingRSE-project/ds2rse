@@ -1,0 +1,52 @@
+
+# DS and RSE competencies outside the Research Cycle
+
+This section collects transversal competencies in Data Science and Research Software Engineering (RSE) that support research but are not tied to a specific phase of the research process.
+
+_1. Ethical and Legal Awareness_
+
+**Data Ethics**
+
+- Awareness of bias and fairness in data
+- Model transparency, explainability, and accountability
+- Risk and impact assessment (e.g., algorithmic decision-making)
+- Ethical reflection throughout the data lifecycle
+
+**Data Privacy and Legal Contexts**
+
+- National and international data protection laws
+- Differentiation between personal and non-personal data
+- Licensing and data usage regulations
+- Data compliance skills
+
+
+_2. Interdisciplinary Collaboration_
+
+**Communication and Project Skills**
+
+- Project planning and evaluation
+- Communication across disciplines and with non-experts
+- Knowledge of marketing and dissemination strategies
+
+**Domain Integration and Labs**
+
+- Ability to adapt and apply methods in various domains
+- Independent and team-based domain project execution
+- Research data management within domains
+- Interdisciplinary labs as agile learning environments
+
+_3. Economic Understanding_
+
+- Understanding digital value creation
+- Awareness of data-driven business models
+- Critical view on market structures and power in data economy
+
+_4. Computer Science Specialties_
+
+**Various CS specializations such as**
+
+- database programming
+- constraint programming
+- machine learning
+- algorithmic design
+- ...

@@ -1,0 +1,111 @@
+
+# DS and RSE Competences in relation to the Research Cycle
+
+In the following the contents of [@GI2021DataScience] and [@petersen_2025_15025246] are parsed as the most current examples
+of data science curricula in the German research context. The contents are inspected for obvious links to the research process
+and interpreted if no explicit connections are made.
+
+For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the [RSE-Curriculums project](https://github.com/juliandehne/RSE-Masters/blob/main/curriculum.md). For the RSE competencies the RSE community has developed short codes. These are attached in the glossary in the appendix.
+
+
+_1. Conceptualization_
+
+**RSE Competencies:**
+
+- Understanding the research cycle (`RC`)
+- Conducting and leading research (`NEW`)
+
+**Data Science Competencies:**
+
+- Understanding the Data Science Lifecycle and methods selection
+- Awareness of data context, purpose, and interdisciplinary implications (ethics, economics, legal)
+
+
+_2. Design_
+
+**RSE Competencies:**
+
+- Software Design
+- Software re-use strategies (`SRU`)
+- Creating documented code building blocks (`DOCBB`)
+- Software behavior analysis (`MOD`)
+- Building distributable software (`DIST`)
+- Tool and environment configuration (`SWLC`, `SWREPOS`)
+- Full-Stack Programming
+
+**Data Science Competencies:**
+
+- Data integration & feature engineering (ETL, pipelines, quality checks)
+- Design of data workflows and modeling processes
+- Visualization theory and editorial thinking (exploratory analysis)
+- Algorithm selection and objective function definition (ML core)
+- Designing responsible data usage frameworks (ethics, privacy)
+- Data-oriented Programming (R, Python, Matlab etc.)
+
+
+_3. Implementation_
+
+**RSE Competencies:**
+
+- Source control, testing, CI/CD (`SWREPOS`, `DIST`, `DOCBB`)
+- Working in interdisciplinary teams (`TEAM`)
+- Project and task management (`PM`)
+
+**Data Science Competencies:**
+
+- Deployment of data pipelines and operational models
+- Tool usage (Python, R, Julia, ML libraries like scikit-learn, Dask)
+- Executing experiments using machine learning, deep learning
+- Applying project management and interdisciplinary communication
+
+_4. Analysis & Interpretation_
+
+**RSE Competencies:**
+
+- Software behavior interpretation (`MOD`)
+- Documentation of research results and workflows
+
+**Data Science Competencies:**
+
+- Explorative Data Analysis (EDA), multivariate visualizations
+- Deep understanding of model inference and optimization strategies
+- Time series analysis, pattern mining, and argumentation (Data Mining)
+- Ethical analysis of bias, fairness, and model accountability
+
+_5. Dissemination_
+
+**RSE Competencies:**
+
+- Software publication and citation (`SP`)
+- Use of domain repositories (`DOMREP`)
+- Teaching and communication (`TEACH`, `USERS`)
+
+**Data Science Competencies:**
+
+- Reporting results and dashboards
+- FAIR principles and reproducibility practices
+- Preparation of software and models for open science platforms
+- Communicating findings across disciplinary and public boundaries
+
+_6. Reflexion and Improvements_
+
+**RSE Competencies:**
+
+- Continuous integration and testing (`SWLC`, `MOD`)
+- Feedback-informed iterative development
+- Mentoring, community involvement, and ethics (`TEAM`, `USERS`)
+
+**Data Science Competencies:**
+
+- Critical reflection on model performance and bias
+- Model tuning, reengineering, and lifecycle updates
+- Reinforcement learning and emerging AI models
+- Responsible innovation, economic awareness, data sovereignty
+- Application of Data Science in real-world domain projects
+
+
+
+
+
+
+
