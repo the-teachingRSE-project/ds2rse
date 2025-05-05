@@ -28,6 +28,12 @@ When discussing competences for research software engineers as the basis of a cu
 
 The major computing organizations ACM and IEEE published a joint recommended computing curriculum which already included data science: the [cc2020 Computing Curriculum](https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf) already lists DS as one of the special cases for computing competences. Whilst DS is mentioned, research software engineering was absent.
 
+There are existing bodies of knowledge (BOKs) for both software engineering [SWEBOK](https://www.computer.org/education/bodies-of-knowledge/software-engineering/topics) and Data Science [DS-BOK](https://edison-project.eu/sites/edison-project.eu/files/filefield_paths/edison_ds-bok-release2-v04.pdf) with comprehensive mapping of the knowledge areas to each and other and to the ACM computing curriculum in general. The connection between competencies and the corresponding knowledge canon is complex. Some competencies are almost the equivalent to a knowledge based learning goal whereas others integrate several knowledge areas with active application skills. For the intent of this paper the additional mapping of knowledge areas to competency would be out of scope. However, the idea of outlining the fields and mapping corresponding aspects can be transferred analogously.
+
+![Intersecting Areas](img/ds_rse_rdm_se.png){#fig-cycles width=60%}
+
+The DS-BOK maps data science not only to software engineering but also to (research) data management (RDM). This is interesting as RDM is another intersecting cycle. @fig-cycles shows the assumed relationship between the prominent fields of discussion.
+
 Depending on the point of view RSE could be conceived as a subclass of DS or the other way around. In contrast, it takes a closer look on the interlinkage between the fields taking account of both the common competencies needed to be successful and the competencies that are specific to one of the areas.
 
 TODO insert previous research to RSE and DS:
@@ -44,7 +50,7 @@ Levels of Differences between RSE and DS:
 
 In the following the contents of [@GI2021DataScience] is parsed as the most current examples
 of data science curricula in the German research context. The contents are inspected for obvious links to the research process
-and interpreted if no explicit connections are made.
+and interpreted if no explicit connections are made. Further sources for data science curriculum is the output of the [Edison Project](https://edison-project.eu/edison/edison-data-science-framework-edsf) and the [OpenDS4all Project](https://github.com/odpi/OpenDS4All).
 
 For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the [RSE-Curriculums project](https://github.com/juliandehne/RSE-Masters/blob/main/curriculum.md). For the RSE competencies the RSE community has developed short codes. These are attached in the glossary in the appendix.
 

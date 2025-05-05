@@ -13,7 +13,7 @@ Beispielhafte Zitierungen: @Ez10, @AB00.
 
 # Abbildungen
 
-![Demographik](four_pillars_rse.png){#fig-demo width=80%}
+![Demographik](img/ds_rse_rdm_se.png){#fig-demo width=80%}
 
 # Tabellen
 

@@ -78,9 +78,43 @@
     for computing competences. Whilst DS is mentioned, research software
     engineering was absent.
 
-    Even though it is intuitively clear that RSE is not a subclass of
-    DS, there have been few attempts of differentiating the fields with
-    regard to their competency sets.
+    There are existing bodies of knowledge (BOKs) for both software
+    engineering
+    \href{https://www.computer.org/education/bodies-of-knowledge/software-engineering/topics}{SWEBOK}
+    and Data Science
+    \href{https://edison-project.eu/sites/edison-project.eu/files/filefield_paths/edison_ds-bok-release2-v04.pdf}{DS-BOK}
+    with comprehensive mapping of the knowledge areas to each and other
+    and to the ACM computing curriculum in general. The connection
+    between competencies and the corresponding knowledge canon is
+    complex. Some competencies are almost the equivalent to a knowledge
+    based learning goal whereas others integrate several knowledge areas
+    with active application skills. For the intent of this paper the
+    additional mapping of knowledge areas to competency would be out of
+    scope. However, the idea of outlining the fields and mapping
+    corresponding aspects can be transferred analogously.
+
+    \begin{figure}
+
+    \centering{
+
+    \includegraphics[width=0.6\linewidth,height=\textheight,keepaspectratio]{img/ds_rse_rdm_se.png}
+
+    }
+
+    \caption{\label{fig-cycles}Intersecting Areas}
+
+    \end{figure}%
+
+    The DS-BOK maps data science not only to software engineering but
+    also to (research) data management (RDM). This is interesting as RDM
+    is another intersecting cycle. Figure~\ref{fig-cycles} shows the
+    assumed relationship between the prominent fields of discussion.
+
+    Depending on the point of view RSE could be conceived as a subclass
+    of DS or the other way around. In contrast, it takes a closer look
+    on the interlinkage between the fields taking account of both the
+    common competencies needed to be successful and the competencies
+    that are specific to one of the areas.
 
     TODO insert previous research to RSE and DS: Levels of Differences
     between RSE and DS:
@@ -202,7 +236,11 @@
     parsed as the most current examples of data science curricula in the
     German research context. The contents are inspected for obvious
     links to the research process and interpreted if no explicit
-    connections are made.
+    connections are made. Further sources for data science curriculum is
+    the output of the
+    \href{https://edison-project.eu/edison/edison-data-science-framework-edsf}{Edison
+    Project} and the
+    \href{https://github.com/odpi/OpenDS4All}{OpenDS4all Project}.
 
     For the RSE side the contents of \autocite{Goth2024RSE} are used as
     a basis as well as the current state of the
@@ -256,11 +294,15 @@
     tool, the analysis part is then handed over to the respective field
     specialists.
 
-    It is very hard to both evaluate the impact of technology and also
-    to evaluate the technology itself and its impact on the study.
-    Comprehensive methods like Directed Acyclic Graph Modellings (DAGs)
-    or Instrumental Variables try to tackle these nested evaluation
-    issues but have not found widespread use.
+    Another reason for the design focus of RSE is the limited resources
+    available. It is very time-consuming to both evaluate the impact of
+    technology and also to evaluate the technology itself and its impact
+    on the study. Comprehensive methods like Directed Acyclic Graph
+    Modellings (DAGs) or Instrumental Variables try to tackle these
+    nested evaluation issues but have not found widespread use. For that
+    reason, the evaluation often concludes with the evaluation of the
+    design part with instruments like the Technology Acceptance Model
+    (TAM) or usability scales.
 
     H2 also had to be rejected: in fact, DS seems to contain more
     aspects outside the research cycle than RSE. Even though the core
