@@ -34,3 +34,13 @@ public class Hello {
     }
 }
 ```
+
+
+
+# Appendix {#sec:appendix}
+
+{{< include glossary.qmd >}}
+
+{{< include ds2rse_curriculas.qmd >}}
+
+{{< include ds2rse_curriculas2.qmd >}}

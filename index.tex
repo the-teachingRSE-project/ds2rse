@@ -40,7 +40,7 @@
 \begin{document}
 
 % Title
-        \title[]{The difference between RSE and Data Science}
+        \title[]{Preliminary Comparison of RSE and DS Competences}
     
     
     \include{authors.tex}
@@ -57,38 +57,34 @@
     
 % Keywords
         \begin{keywords}
-        LNI Guidelines \and LaTeX Vorlage
+        Research Software-Engineering \and Data Science \and Competences
     \end{keywords}
     
 % Body
     \section{What has been discussed}\label{what-has-been-discussed}
 
     When discussing competences for research software engineers as the
-    basis of a curriculum to train Research Software engineers (RSE)
+    basis of a curriculum to train Research Software Engineers
     professionals it is logical to look at the data science movement for
-    inspiration. Similar to RSE, Data Science (DS) is a cross-cutting
-    field that focuses on a special area within the sciences or data
-    oriented businesses.
+    inspiration. Similar to Research Software Engineering (RSE), Data
+    Science (DS) is a cross-cutting field that focuses on a special area
+    within the sciences or data oriented businesses.
 
     The major computing organizations ACM and IEEE published a joint
     recommended computing curriculum which already included data
-    science: the
-    \href{https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf}{cc2020
-    Computing Curriculum} already lists DS as one of the special cases
-    for computing competences. Whilst DS is mentioned, research software
-    engineering was absent.
+    science: the Computing Curriculum 2020 \autocite{CC2020} already
+    lists DS as one of the special cases for computing competences.
+    Whilst DS is mentioned, research software engineering was absent.
 
     There are existing bodies of knowledge (BOKs) for both software
-    engineering
-    \href{https://www.computer.org/education/bodies-of-knowledge/software-engineering/topics}{SWEBOK}
-    and Data Science
-    \href{https://edison-project.eu/sites/edison-project.eu/files/filefield_paths/edison_ds-bok-release2-v04.pdf}{DS-BOK}
-    with comprehensive mapping of the knowledge areas to each and other
-    and to the ACM computing curriculum in general. The connection
-    between competencies and the corresponding knowledge canon is
-    complex. Some competencies are almost the equivalent to a knowledge
-    based learning goal whereas others integrate several knowledge areas
-    with active application skills. For the intent of this paper the
+    engineering \autocite{SWEBOK2014} and data science
+    \autocite{DSBOK2017}, each offering a comprehensive mapping of
+    knowledge areas among themselves and in relation to the ACM
+    computing curriculum. However, the connection between competencies
+    and the corresponding knowledge canon remains complex and nuanced.
+    Some competencies are almost the equivalent to a knowledge based
+    learning goal whereas others integrate several knowledge areas with
+    active application skills. For the intent of this paper the
     additional mapping of knowledge areas to competency would be out of
     scope. However, the idea of outlining the fields and mapping
     corresponding aspects can be transferred analogously.
@@ -237,16 +233,14 @@
     German research context. The contents are inspected for obvious
     links to the research process and interpreted if no explicit
     connections are made. Further sources for data science curriculum is
-    the output of the
-    \href{https://edison-project.eu/edison/edison-data-science-framework-edsf}{Edison
-    Project} and the
-    \href{https://github.com/odpi/OpenDS4All}{OpenDS4all Project}.
+    the output of the Edison Project \autocite{EDSF2017} and the
+    OpenDS4all Project \autocite{OpenDS4All2020}.
 
     For the RSE side the contents of \autocite{Goth2024RSE} are used as
-    a basis as well as the current state of the
-    \href{https://github.com/juliandehne/RSE-Masters/blob/main/curriculum.md}{RSE-Curriculums
-    project}. For the RSE competencies the RSE community has developed
-    short codes. These are attached in the glossary in the appendix.
+    a basis as well as the current state of the RSE-Curriculums project
+    \autocite{RSECurriculums2021}. For the RSE competencies the RSE
+    community has developed short codes. These are attached in the
+    glossary in the attached repository \autocite{ds2rse2025}.
 
     In addition, relevant competences from the research data management
     field \autocite{petersen_2025_15025246} are included as they
@@ -255,12 +249,12 @@
     In terms of methodology it should be noted that this approach
     follows a community-driven consensus building. It should not be
     mistaken for a review study with measurable intersubjectivity based
-    on instruments like \href{https://www.prisma-statement.org}{PRISMA}.
+    on instruments like PRISMA \autocite{Page2021PRISMA}.
 
     The lists of extracted DS and RSE competency clusters can be found
-    in Appendix. We also plan to publish a full table of RSE
-    competencies (and possible DS competencies) sorted by clusters. In
-    terms of this top-level discussion the competency clusters are
+    in \autocite{ds2rse2025}. We also plan to publish a full table of
+    RSE competencies (and possible DS competencies) sorted by clusters.
+    In terms of this top-level discussion the competency clusters are
     sufficient to compare the differences with regard to the research
     cycle.
 
@@ -311,7 +305,8 @@
     Management (RDM) could be named as the most prominent of these. Due
     to the strong overlap of non-research related competencies, a joint
     list competency clusters was compiled that lists the competences
-    that are not research cycle related (also in the appendix).
+    that are not research cycle related (also in the repository
+    \autocite{ds2rse2025}).
 
     The long list of transversal competencies begs the question if there
     are also technical competences that overlap. Even though this was
@@ -327,333 +322,6 @@
     and deeper understanding of computer science.
 
     \printbibliography
-
-    \section{Appendix}\label{sec:appendix}
-
-    \subsection{Glossary}\label{glossary}
-
-    \textbf{C} A general-purpose programming language often used for
-    system-level development.
-
-    \textbf{Cpp} C++ --- an extension of C that supports object-oriented
-    programming.
-
-    \textbf{DIST} Software distribution --- the practice of packaging
-    and delivering software and its dependencies.
-
-    \textbf{DOCBB} Documentation and best practices --- ensuring code is
-    understandable and maintainable.
-
-    \textbf{DOMREP} Domain repositories --- platforms that store and
-    share domain-specific research data.
-
-    \textbf{HPC} High-Performance Computing --- using supercomputers and
-    parallel processing for complex tasks.
-
-    \textbf{MOD} Modularity --- the design principle of separating
-    software into interchangeable, functional components.
-
-    \textbf{NEW} Novel research --- work that contributes original
-    insights to a scientific domain.
-
-    \textbf{PM} Project Management --- planning, executing, and
-    overseeing projects effectively.
-
-    \textbf{Python} A high-level programming language widely used in
-    data science and scripting.
-
-    \textbf{R} A programming language and environment for statistical
-    computing and graphics.
-
-    \textbf{RSE} Research Software Engineer --- someone who applies
-    software engineering skills to scientific research.
-
-    \textbf{SP} Software publication --- the process of preparing and
-    disseminating software artifacts.
-
-    \textbf{SRU} Software reuse --- the practice of using existing
-    software components in new projects.
-
-    \textbf{STEM} Science, Technology, Engineering, and Mathematics.
-
-    \textbf{SWREPOS} Software repositories --- systems for storing and
-    managing software code and versions.
-
-    \textbf{TEAM} Teamwork --- the ability to collaborate effectively in
-    a group setting.
-
-    \textbf{TEACH} Teaching --- the skill of communicating knowledge and
-    helping others learn.
-
-    \textbf{USERS} End users --- the scientists or researchers who rely
-    on software tools.
-
-    \subsection{DS and RSE Competences in relation to the Research
-    Cycle}\label{ds-and-rse-competences-in-relation-to-the-research-cycle}
-
-    \emph{1. Conceptualization}
-
-    \textbf{RSE Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Understanding the research cycle (\texttt{RC})
-    \item
-      Conducting and leading research (\texttt{NEW})
-    \end{itemize}
-
-    \textbf{Data Science Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Understanding the Data Science Lifecycle and methods selection
-    \item
-      Awareness of data context, purpose, and interdisciplinary
-      implications (ethics, economics, legal)
-    \end{itemize}
-
-    \emph{2. Design}
-
-    \textbf{RSE Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Software Design
-    \item
-      Software re-use strategies (\texttt{SRU})
-    \item
-      Creating documented code building blocks (\texttt{DOCBB})
-    \item
-      Software behavior analysis (\texttt{MOD})
-    \item
-      Building distributable software (\texttt{DIST})
-    \item
-      Tool and environment configuration (\texttt{SWLC},
-      \texttt{SWREPOS})
-    \item
-      Full-Stack Programming
-    \end{itemize}
-
-    \textbf{Data Science Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Data integration \& feature engineering (ETL, pipelines, quality
-      checks)
-    \item
-      Design of data workflows and modeling processes
-    \item
-      Visualization theory and editorial thinking (exploratory analysis)
-    \item
-      Algorithm selection and objective function definition (ML core)
-    \item
-      Designing responsible data usage frameworks (ethics, privacy)
-    \item
-      Data-oriented Programming (R, Python, Matlab etc.)
-    \end{itemize}
-
-    \emph{3. Implementation}
-
-    \textbf{RSE Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Source control, testing, CI/CD (\texttt{SWREPOS}, \texttt{DIST},
-      \texttt{DOCBB})
-    \item
-      Working in interdisciplinary teams (\texttt{TEAM})
-    \item
-      Project and task management (\texttt{PM})
-    \end{itemize}
-
-    \textbf{Data Science Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Deployment of data pipelines and operational models
-    \item
-      Tool usage (Python, R, Julia, ML libraries like scikit-learn,
-      Dask)
-    \item
-      Executing experiments using machine learning, deep learning
-    \item
-      Applying project management and interdisciplinary communication
-    \end{itemize}
-
-    \emph{4. Analysis \& Interpretation}
-
-    \textbf{RSE Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Software behavior interpretation (\texttt{MOD})
-    \item
-      Documentation of research results and workflows
-    \end{itemize}
-
-    \textbf{Data Science Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Explorative Data Analysis (EDA), multivariate visualizations
-    \item
-      Deep understanding of model inference and optimization strategies
-    \item
-      Time series analysis, pattern mining, and argumentation (Data
-      Mining)
-    \item
-      Ethical analysis of bias, fairness, and model accountability
-    \end{itemize}
-
-    \emph{5. Dissemination}
-
-    \textbf{RSE Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Software publication and citation (\texttt{SP})
-    \item
-      Use of domain repositories (\texttt{DOMREP})
-    \item
-      Teaching and communication (\texttt{TEACH}, \texttt{USERS})
-    \end{itemize}
-
-    \textbf{Data Science Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Reporting results and dashboards
-    \item
-      FAIR principles and reproducibility practices
-    \item
-      Preparation of software and models for open science platforms
-    \item
-      Communicating findings across disciplinary and public boundaries
-    \end{itemize}
-
-    \emph{6. Reflexion and Improvements}
-
-    \textbf{RSE Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Continuous integration and testing (\texttt{SWLC}, \texttt{MOD})
-    \item
-      Feedback-informed iterative development
-    \item
-      Mentoring, community involvement, and ethics (\texttt{TEAM},
-      \texttt{USERS})
-    \end{itemize}
-
-    \textbf{Data Science Competencies:}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Critical reflection on model performance and bias
-    \item
-      Model tuning, reengineering, and lifecycle updates
-    \item
-      Reinforcement learning and emerging AI models
-    \item
-      Responsible innovation, economic awareness, data sovereignty
-    \item
-      Application of Data Science in real-world domain projects
-    \end{itemize}
-
-    \subsection{DS and RSE competencies outside the Research
-    Cycle}\label{ds-and-rse-competencies-outside-the-research-cycle}
-
-    This section collects transversal competencies in Data Science and
-    Research Software Engineering (RSE) that support research but are
-    not tied to a specific phase of the research process.
-
-    \emph{1. Ethical and Legal Awareness}
-
-    \textbf{Data Ethics}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Awareness of bias and fairness in data
-    \item
-      Model transparency, explainability, and accountability
-    \item
-      Risk and impact assessment (e.g., algorithmic decision-making)
-    \item
-      Ethical reflection throughout the data lifecycle
-    \end{itemize}
-
-    \textbf{Data Privacy and Legal Contexts}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      National and international data protection laws
-    \item
-      Differentiation between personal and non-personal data
-    \item
-      Licensing and data usage regulations
-    \item
-      Data compliance skills
-    \end{itemize}
-
-    \emph{2. Interdisciplinary Collaboration}
-
-    \textbf{Communication and Project Skills}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Project planning and evaluation
-    \item
-      Communication across disciplines and with non-experts
-    \item
-      Knowledge of marketing and dissemination strategies
-    \end{itemize}
-
-    \textbf{Domain Integration and Labs}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      Ability to adapt and apply methods in various domains
-    \item
-      Independent and team-based domain project execution
-    \item
-      Research data management within domains
-    \item
-      Interdisciplinary labs as agile learning environments
-    \end{itemize}
-
-    \emph{3. Computer Science Specialties}
-
-    \textbf{Various CS specializations such as}
-
-    \begin{itemize}
-    \tightlist
-    \item
-      database programming
-    \item
-      constraint programming
-    \item
-      machine learning
-    \item
-      algorithmic design
-    \item
-      \ldots{}
-    \end{itemize}
 
 % Bibliography
 

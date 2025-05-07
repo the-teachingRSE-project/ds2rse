@@ -1,6 +1,6 @@
 ---
-title: "The difference between RSE and Data Science"
-keywords: [LNI Guidelines, LaTeX Vorlage]
+title: "Preliminary Comparison of RSE and DS Competences"
+keywords: [Research Software-Engineering, Data Science, Competences]
 abstract: |
   Die LaTeX-Klasse `lni` setzt die Layout-Vorgaben für Beiträge in LNI Konferenzbänden um.
   Dieses Dokument beschreibt ihre Verwendung und ist ein Beispiel für die entsprechende Darstellung.
@@ -24,11 +24,12 @@ format:
 
 # What has been discussed
 
-When discussing competences for research software engineers as the basis of a curriculum to train Research Software engineers (RSE) professionals it is logical to look at the data science movement for inspiration. Similar to RSE, Data Science (DS) is a cross-cutting field that focuses on a special area within the sciences or data oriented businesses.
+When discussing competences for research software engineers as the basis of a curriculum to train Research Software Engineers professionals it is logical to look at the data science movement for inspiration. Similar to Research Software Engineering (RSE), Data Science (DS) is a cross-cutting field that focuses on a special area within the sciences or data oriented businesses.
 
-The major computing organizations ACM and IEEE published a joint recommended computing curriculum which already included data science: the [cc2020 Computing Curriculum](https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2020.pdf) already lists DS as one of the special cases for computing competences. Whilst DS is mentioned, research software engineering was absent.
+The major computing organizations ACM and IEEE published a joint recommended computing curriculum which already included data science: the Computing Curriculum 2020 [@CC2020] already lists DS as one of the special cases for computing competences. Whilst DS is mentioned, research software engineering was absent.
 
-There are existing bodies of knowledge (BOKs) for both software engineering [SWEBOK](https://www.computer.org/education/bodies-of-knowledge/software-engineering/topics) and Data Science [DS-BOK](https://edison-project.eu/sites/edison-project.eu/files/filefield_paths/edison_ds-bok-release2-v04.pdf) with comprehensive mapping of the knowledge areas to each and other and to the ACM computing curriculum in general. The connection between competencies and the corresponding knowledge canon is complex. Some competencies are almost the equivalent to a knowledge based learning goal whereas others integrate several knowledge areas with active application skills. For the intent of this paper the additional mapping of knowledge areas to competency would be out of scope. However, the idea of outlining the fields and mapping corresponding aspects can be transferred analogously.
+There are existing bodies of knowledge (BOKs) for both software engineering [@SWEBOK2014] and data science [@DSBOK2017], each offering a comprehensive mapping of knowledge areas among themselves and in relation to the ACM computing curriculum. However, the connection between competencies and the corresponding knowledge canon remains complex and nuanced.
+ Some competencies are almost the equivalent to a knowledge based learning goal whereas others integrate several knowledge areas with active application skills. For the intent of this paper the additional mapping of knowledge areas to competency would be out of scope. However, the idea of outlining the fields and mapping corresponding aspects can be transferred analogously.
 
 ![Intersecting Areas](img/ds_rse_rdm_se.png){#fig-cycles width=60%}
 
@@ -50,24 +51,16 @@ Levels of Differences between RSE and DS:
 
 In the following the contents of [@GI2021DataScience] is parsed as the most current examples
 of data science curricula in the German research context. The contents are inspected for obvious links to the research process
-and interpreted if no explicit connections are made. Further sources for data science curriculum is the output of the [Edison Project](https://edison-project.eu/edison/edison-data-science-framework-edsf) and the [OpenDS4all Project](https://github.com/odpi/OpenDS4All).
+and interpreted if no explicit connections are made. Further sources for data science curriculum is the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020].
 
-For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the [RSE-Curriculums project](https://github.com/juliandehne/RSE-Masters/blob/main/curriculum.md). For the RSE competencies the RSE community has developed short codes. These are attached in the glossary in the appendix.
+For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curriculums project [@RSECurriculums2021]. For the RSE competencies the RSE community has developed short codes. These are attached in the glossary in the attached repository [@ds2rse2025].
 
 In addition, relevant competences from the research data management field [@petersen_2025_15025246] are included as they intersect with both DS and RSE.
 
-In terms of methodology it should be noted that this approach follows a community-driven consensus building. It should not be mistaken for a review study with measurable intersubjectivity based on instruments like [PRISMA](https://www.prisma-statement.org).
+In terms of methodology it should be noted that this approach follows a community-driven consensus building. It should not be mistaken for a review study with measurable intersubjectivity based on instruments like PRISMA [@Page2021PRISMA].
 
-The lists of extracted DS and RSE competency clusters can be found in Appendix. We also plan to publish a full table of RSE competencies (and possible DS competencies) sorted by clusters. In terms of this top-level discussion the competency clusters are sufficient to compare the differences with regard to the research cycle.
+The lists of extracted DS and RSE competency clusters can be found in [@ds2rse2025]. We also plan to publish a full table of RSE competencies (and possible DS competencies) sorted by clusters. In terms of this top-level discussion the competency clusters are sufficient to compare the differences with regard to the research cycle.
 
 {{< include discussion.qmd >}}
 
 \printbibliography
-
-# Appendix {#sec:appendix}
-
-{{< include glossary.qmd >}}
-
-{{< include ds2rse_curriculas.qmd >}}
-
-{{< include ds2rse_curriculas2.qmd >}}
