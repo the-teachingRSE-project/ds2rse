@@ -37,7 +37,7 @@ in order to give a complete picture
 
 ### Research Software Engineer
 
-A recent shift towards the establishment of the distinct role of a “Research Software Engineer (RSE, a term that was coined in the United
+A recent shift towards the establishment of the distinct role of a “Research Software Engineer" (RSE, a term that was coined in the United
 Kingdom (UK) a little over 10 years ago), now provides a base on which sustainable career opportunities can be (and are being) built, allowing for better training of researchers and more effective support for the development of high quality research software.
 
 RSEs may work within one of the increasing number of research software engineering teams that have been set up at universities and research organisations over the past decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow, or Software Engineer.
@@ -45,7 +45,7 @@ Regardless of their job title, RSEs share a set of core skills that are required
 
 Research Software Engineering can be considered an interface discipline, linking traditional Software Engineering with Research itself.
 Due to this nature there is a plethora of different variations of RSE depending on the particular Research domain they are working in.
-Therefore the broad notion of Research Software Engineers is better thought of as a collection of sub-communities.
+Therefore, the broad notion of Research Software Engineers is better thought of as a collection of sub-communities.
 The term Research Software Engineer is made more difficult to grasp since an internationally recognised definition is still missing.
 While there is consensus about the general notion that an RSE is a person with one leg in their research domain and the other in software development, this spans a whole spectrum depending on which one is more emphasised.
 Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible. RSEs often need to deal with non-technical complexities that are characteristic for research environments: organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few. Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
@@ -56,7 +56,7 @@ In academia a data scientist could collaborate with faculty on academic research
 
 ### Research Data Managers
 Research Data Managers focus on the provision of structures for the management of research data
-These can be organizational, educational and the respective infrastuctures.
+These can be organizational, educational and the respective infrastructures.
 They are responsible for organizing, storing, and maintaining the integrity of data collected during research projects. They develop and implement data management plans, ensuring data is accurate, secure, and compliant with legal and ethical standards in order to
 improve the handling of research data at every point in the data cycle (FIXME: Insert picture of data cycle)
 They work closely with researchers to support data collection, cleaning, documentation, and sharing. Additionally, research data managers often facilitate data archiving and ensure that data is accessible for future use or replication.
