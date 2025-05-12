@@ -81,6 +81,8 @@ In terms of methodology it should be noted that this approach follows a communit
 
 The lists of extracted DS and RSE competency clusters can be found in [@ds2rse2025]. We also plan to publish a full table of RSE competencies (and possible DS competencies) sorted by clusters. In terms of this top-level discussion the competency clusters are sufficient to compare the differences with regard to the research cycle.
 
+# Results and Discussion
+
 {{< include discussion.qmd >}}
 
 # Conclusion

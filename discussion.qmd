@@ -2,12 +2,8 @@
 
 H1 could not be confirmed in the strict sense. Although the compiled competency clusters show that there is a stronger focus on certain stages of the research process for both RSE and DS competencies, both can be interpreted more generally to encompass all stages of the research cycle. Moreover, there are some competency description that seem very similar such as the focus on the research cycle for RSE and the data science lifecycle for DS. In terms of methodology simply comparing the existing mentions of competencies should not be regarded as the best possible proxy to the actual distribution in the field. A survey study asking practitioners and researchers where in the process they would place DS and RSE would yield far more convincing results. Still, self-evaluation might also be biased depending on the identity of the people working the in the respective fields.
 
-The most clear differences between DS and RSE are found in the design stage and the analysis stage. The design stage holds most of the competency clusters the RSE community defined. The DS counterpart is very general and many competencies listed there could in fact be construed as RSE-competencies that are imported for more complex cases. In contrast, the analysis stage is more connected to DS. This can be explained by the historic challenges software development faces in terms of clear-cut evaluation but also by the distribution of labor: if the RSE-job ends with the developed software and the core experiment or study uses the software as a tool, the analysis part is then handed over to the respective field specialists.
-
-Another reason for the design focus of RSE is the limited resources available. It is very time-consuming to both evaluate the impact of technology and also to evaluate the technology itself and its impact on the study. Comprehensive methods like Directed Acyclic Graph Modellings (DAGs) or Instrumental Variables try to tackle these nested evaluation issues but have not found widespread use. For that reason, the evaluation often concludes with the evaluation of the design part with instruments like the Technology Acceptance Model (TAM) or usability scales.
-
 :::{=latex}
-\begin{figure}[htbp]
+\begin{figure}[h!]
 \centering
 \begin{minipage}{0.48\textwidth}
 \centering
@@ -24,6 +20,10 @@ Another reason for the design focus of RSE is the limited resources available. I
 \end{figure}
 :::
 
+
+The most clear differences between DS and RSE are found in the design stage and the analysis stage. The design stage holds most of the competency clusters the RSE community defined. The DS counterpart is very general and many competencies listed there could in fact be construed as RSE-competencies that are imported for more complex cases. In contrast, the analysis stage is more connected to DS. This can be explained by the historic challenges software development faces in terms of clear-cut evaluation but also by the distribution of labor: if the RSE-job ends with the developed software and the core experiment or study uses the software as a tool, the analysis part is then handed over to the respective field specialists.
+
+Another reason for the design focus of RSE is the limited resources available. It is very time-consuming to both evaluate the impact of technology and also to evaluate the technology itself and its impact on the study. Comprehensive methods like Directed Acyclic Graph Modellings (DAGs) or Instrumental Variables try to tackle these nested evaluation issues but have not found widespread use. For that reason, the evaluation often concludes with the evaluation of the design part with instruments like the Technology Acceptance Model (TAM) or usability scales.
 
 
 H2 also had to be rejected: in fact, DS seems to contain more aspects outside the research cycle than RSE. Even though the core analysis of data component is very embedded in research, DS has a lot of institutional, political and legal challenges. Research Data Management (RDM) could be named as the most prominent of these. Due to the strong overlap of non-research related competencies, a joint list  competency clusters was compiled that lists the competences that are not research cycle related (also in the repository [@ds2rse2025]).
