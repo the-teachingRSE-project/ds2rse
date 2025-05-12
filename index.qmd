@@ -86,9 +86,7 @@ However, the connection between competencies and the corresponding knowledge can
  Some competencies are almost the equivalent to a knowledge based learning goal whereas others integrate several knowledge areas with active application skills.
  For the intent of this paper the additional mapping of knowledge areas to competency would be out of scope. However, the idea of outlining the fields and mapping corresponding aspects can be transferred analogously.
 
-![Intersecting Areas](img/ds_rse_rdm_se.png){#fig-cycles width=60%}
-
-The DS-BOK maps data science not only to software engineering but also to (research) data management (RDM). This is interesting as RDM is another intersecting cycle. @fig-cycles shows the assumed relationship between the prominent fields of discussion.
+The DS-BOK maps data science not only to software engineering but also to (research) data management (RDM). This is interesting as RDM is another intersecting cycle.
 
 Depending on the point of view RSE could be conceived as a subclass of DS or the other way around. In contrast, it takes a closer look on the interlinkage between the fields taking account of both the common competencies needed to be successful and the competencies that are specific to one of the areas.
 

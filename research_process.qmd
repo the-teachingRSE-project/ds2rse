@@ -2,8 +2,6 @@
 
 Both RSE and DS can be conceptualized as a cross-cutting concern in many disciplines. However, the definition and relevance of these issues can be generalized based on the function they fulfill in the research cycle @fig-research_cycle.
 
-![The research cycle [@wildt2009forschendes] integrates the typical research process with the learning process.](img/research_cycle_wildt.png){#fig-research_cycle width=70%}
-
 There are different research processes depending on the discipline and the research question. However, [@Dehne2021] showed that most of the research processes contain the following phases:
 
 1. conceptualization (developing research questions, concepts)
@@ -14,6 +12,8 @@ There are different research processes depending on the discipline and the resea
 6. reflexion and improvements
 
 For example, in the case of the field of learning technologies, the design phase often consists of extensive software development of different tools for learning. In this situation developing complex tools for learning can be considered as research software engineering. The analysis of what learners can gain from using these technologies can be conceived as an educational research in its own right. This example highlights the differences of scale in both the weight of the different process phases (here: phase 2) and the relevance of research engineering. It also shows a situation where research software engineering clearly differs from data science. A typical data science background would not enable researchers to build full-stack software that solves inefficiencies or hard-to-teach problems in education.
+
+![The research cycle based on [@wildt2009forschendes] integrates the typical research process with the learning process.](img/Research_cycle.png){#fig-research_cycle width=70%}
 
 In the second example a GPT-like attention model is trained to classify data gained from the James-Webb telescope. Due to vast amounts of data and the continuous stream of new data research software engineering is needed to implement a pipeline for data cleaning, data warehousing and in-time analysis. In this case, the analysis & interpretation phase (4) has much more relevance. Another point of this is example is that data science competencies such as vectorization of algorithms, statistical analysis, machine learning etc. are interconnected with competencies from software engineering such as software architectures, software project management, and database programming. In this case the distinction between DS competencies and RSE competencies is very fluid.
 

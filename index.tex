@@ -24,6 +24,8 @@
 \usepackage{threeparttablex}
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
+\usepackage{multicol}
+
 
 \usepackage{framed} % Needed for code blocks
 
@@ -95,7 +97,7 @@
     Engineer}\label{research-software-engineer}
 
     A recent shift towards the establishment of the distinct role of a
-    ``Research Software Engineer (RSE, a term that was coined in the
+    ``Research Software Engineer'' (RSE, a term that was coined in the
     United Kingdom (UK) a little over 10 years ago), now provides a base
     on which sustainable career opportunities can be (and are being)
     built, allowing for better training of researchers and more
@@ -136,7 +138,9 @@
     and future funding, to name just a few. Summarising, RSEs have
     skills and experience in three important areas: in the research
     area(s) their software is used in, in software engineering topics,
-    as well as in interdisciplinary communication.
+    as well as in interdisciplinary communication. RSEs have orgnised
+    themselves in various national societies, in Germany this is de-RSE
+    e.V \cite{derseev}.
 
     \subsubsection{Data Scientists}\label{data-scientists}
 
@@ -148,7 +152,9 @@
     results through visualizations and reports. In academia a data
     scientist could collaborate with faculty on academic research
     projects, applying data analysis techniques to disciplines like
-    social science, biology, or education.
+    social science, biology, or education. Political representation in
+    Germany is facilitated by the ``German Data Science Society''
+    \cite{gds}.
 
     \subsubsection{Research Data Managers}\label{research-data-managers}
 
@@ -163,7 +169,9 @@
     cycle) They work closely with researchers to support data
     collection, cleaning, documentation, and sharing. Additionally,
     research data managers often facilitate data archiving and ensure
-    that data is accessible for future use or replication.
+    that data is accessible for future use or replication. Within
+    Germany, numerous regional networks have been formed. More
+    information can be found at \cite{fdminfo}.
 
     \subsubsection{Comparison}\label{comparison}
 
@@ -204,22 +212,9 @@
     scope. However, the idea of outlining the fields and mapping
     corresponding aspects can be transferred analogously.
 
-    \begin{figure}
-
-    \centering{
-
-    \includegraphics[width=0.6\linewidth,height=\textheight,keepaspectratio]{img/ds_rse_rdm_se.png}
-
-    }
-
-    \caption{\label{fig-cycles}Intersecting Areas}
-
-    \end{figure}%
-
     The DS-BOK maps data science not only to software engineering but
     also to (research) data management (RDM). This is interesting as RDM
-    is another intersecting cycle. Figure~\ref{fig-cycles} shows the
-    assumed relationship between the prominent fields of discussion.
+    is another intersecting cycle.
 
     Depending on the point of view RSE could be conceived as a subclass
     of DS or the other way around. In contrast, it takes a closer look
@@ -249,20 +244,6 @@
     many disciplines. However, the definition and relevance of these
     issues can be generalized based on the function they fulfill in the
     research cycle Figure~\ref{fig-research_cycle}.
-
-    \begin{figure}
-
-    \centering{
-
-    \includegraphics[width=0.7\linewidth,height=\textheight,keepaspectratio]{img/research_cycle_wildt.png}
-
-    }
-
-    \caption{\label{fig-research_cycle}The research cycle
-    \autocite{wildt2009forschendes} integrates the typical research
-    process with the learning process.}
-
-    \end{figure}%
 
     There are different research processes depending on the discipline
     and the research question. However, \autocite{Dehne2021} showed that
@@ -299,6 +280,20 @@
     typical data science background would not enable researchers to
     build full-stack software that solves inefficiencies or
     hard-to-teach problems in education.
+
+    \begin{figure}
+
+    \centering{
+
+    \includegraphics[width=0.7\linewidth,height=\textheight,keepaspectratio]{img/Research_cycle.png}
+
+    }
+
+    \caption{\label{fig-research_cycle}The research cycle based on
+    \autocite{wildt2009forschendes} integrates the typical research
+    process with the learning process.}
+
+    \end{figure}%
 
     In the second example a GPT-like attention model is trained to
     classify data gained from the James-Webb telescope. Due to vast
@@ -412,6 +407,22 @@
     reason, the evaluation often concludes with the evaluation of the
     design part with instruments like the Technology Acceptance Model
     (TAM) or usability scales.
+
+    \begin{figure}[htbp]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{img/RC_RSE.png}
+    \caption{RSE Competences in the Research Cycle}
+    \label{fig:rc_rse}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{img/RC_DS.png}
+    \caption{DS Competences in the Research Cycle}
+    \label{fig:rc_ds}
+    \end{minipage}
+    \end{figure}
 
     H2 also had to be rejected: in fact, DS seems to contain more
     aspects outside the research cycle than RSE. Even though the core
