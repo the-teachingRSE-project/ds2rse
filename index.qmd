@@ -49,10 +49,12 @@ Therefore, the broad notion of Research Software Engineers is better thought of 
 The term Research Software Engineer is made more difficult to grasp since an internationally recognised definition is still missing.
 While there is consensus about the general notion that an RSE is a person with one leg in their research domain and the other in software development, this spans a whole spectrum depending on which one is more emphasised.
 Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible. RSEs often need to deal with non-technical complexities that are characteristic for research environments: organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few. Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
+RSEs have orgnised themselves in various national societies, in Germany this is de-RSE e.V \cite{derseev}.
 
 ### Data Scientists
 A data scientist is a professional who analyzes and interprets complex data to help organizations make informed decisions. They use skills in statistics, programming, and machine learning to uncover patterns, trends, and insights from large datasets. Data scientists often build predictive models, design experiments, and communicate results through visualizations and reports.
 In academia a data scientist could collaborate with faculty on academic research projects, applying data analysis techniques to disciplines like social science, biology, or education.
+Political representation in Germany is facilitated by the "German Data Science Society" \cite{gds}.
 
 ### Research Data Managers
 Research Data Managers focus on the provision of structures for the management of research data
@@ -60,6 +62,7 @@ These can be organizational, educational and the respective infrastructures.
 They are responsible for organizing, storing, and maintaining the integrity of data collected during research projects. They develop and implement data management plans, ensuring data is accurate, secure, and compliant with legal and ethical standards in order to
 improve the handling of research data at every point in the data cycle (FIXME: Insert picture of data cycle)
 They work closely with researchers to support data collection, cleaning, documentation, and sharing. Additionally, research data managers often facilitate data archiving and ensure that data is accessible for future use or replication.
+Within Germany, numerous regional networks have been formed. More information can be found at \cite{fdminfo}.
 
 ### Comparison
 While there is overlap between these fields,
