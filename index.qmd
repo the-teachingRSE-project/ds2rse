@@ -21,15 +21,24 @@ format:
 ---
 
 # Introduction
+
 Computers and software have become vital elements of the research process across almost all domains. They enable researchers to collect and process ever-increasing amounts of data, simulate a wide range of phenomena on previously unexplored scales, and discover previously inconceivably complex structures in nature and societies via machine learning (ML).
 This importance of computation and digitally-aided data analysis in research means that digital skills are now required by researchers at all career levels.
 However, as there is a much wider range of digital skills required to support the modern research lifecycle than an individual researcher can master to perfection, there is increasing demand for people in specialist technical roles who can interface between researchers and their digital tools and processes. These technical professionals (increasingly becoming known within the UK research community as "digital Research Technical Professionals" -- dRTPs), provide targeted help, support and specialist technical expertise to researchers. Below we introduce some of the technical roles that have emerged in the research landscape over recent years (roughly in the order in which the terms started appearing).
 
-- **Research Data Managers** (also known as Data Stewards) are responsible for overseeing the lifecycle of research data, from its creation and collection to its storage, sharing, and preservation [@zenodo4915861].
-  They are responsible for organizing, storing, and maintaining the integrity of data collected during research projects. They develop and implement data management plans, and offer advice to researchers on how to do this, ensuring data is accurate, secure, and compliant with legal and ethical standards in order to
-  improve the handling of research data at every point in the data cycle.
-  Research Data Managers work closely with researchers to support data collection, cleaning, documentation, and sharing. Additionally, they often facilitate data archiving and ensure that data is accessible for future use or replication.
-  Within Germany, numerous regional data management networks have been formed. More information can be found at [@fdminfo].
+- **Research Data Managers** (also know as Data Stewards) support the handling of data throughout the research data life-cycle
+including data acquisition, processing, storage and publication.
+The efficiency, validity and recognition of research in many domains today hinges on
+the quality, availability and reproducibility of data and data-transforming methods.
+Research Data Management (RDM) therefore has become a cross-cutting field with a large number of sub-topics
+that range from legal themes, e.g. licenses, data usage agreements and data protection laws
+over technical themes related to the organization, storage, transport, transformation, annotation and analysis of digital data
+to topics traditionally associated with libraries, such as the preservation, publication and dissemination of research data
+\cite{https://doi.org/10.31263/voebm.v74i1.6255, https://doi.org/10.5281/zenodo.4320504}.
+Research Data Managers work closely with domain scientists but also facilitate researchers' communication with other services,
+such as the legal and IT department as well as the library.
+Within Germany, numerous regional data management networks have been formed.
+More information can be found at \cite{fdminfo}.
 
 - **Data Scientists** are professionals who combine expertise in a range of areas that may include programming, statistics, machine learning, and specialist research domain knowledge to analyze and interpret complex data, particularly to uncover patterns, trends, and insights from large datasets. Data scientists often build predictive models, design experiments, and communicate results through visualizations and reports.
   In academia, data scientists often collaborate with faculty members on academic research projects, applying data analysis techniques to disciplines like social science, biology, or education. However, data scientists also often work in industry to help companies to effectily derive insights from corporate data and support business decisions.
