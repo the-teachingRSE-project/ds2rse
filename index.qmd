@@ -124,13 +124,13 @@ H1 could not be confirmed in the strict sense. Although the compiled competency 
 \centering
 \begin{minipage}{0.48\textwidth}
 \centering
-\includegraphics[width=\linewidth]{img/RC_RSE.pdf}
+\includegraphics[width=\linewidth]{img/RC_RSE_competences.pdf}
 \caption{RSE Competences in the Research Cycle}
 \label{fig:rc_rse}
 \end{minipage}\hfill
 \begin{minipage}{0.48\textwidth}
 \centering
-\includegraphics[width=\linewidth]{img/RC_DS.pdf}
+\includegraphics[width=\linewidth]{img/RC_DS_competences.pdf}
 \caption{DS Competences in the Research Cycle}
 \label{fig:rc_ds}
 \end{minipage}
