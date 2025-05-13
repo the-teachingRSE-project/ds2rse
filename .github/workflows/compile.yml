@@ -1,0 +1,48 @@
+name: compilepaper
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  paper:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Quarto
+        run: |
+          wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O quarto.deb
+          sudo apt install -y ./quarto.deb
+          rm quarto.deb
+      - name: install tinytex extension
+        run: quarto install tinytex
+      - name: compile pdf
+        run: quarto render index.qmd -- to pdf
+      - name: Upload pdf as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF file
+          path: ./index.pdf
+  deploy:
+    needs: [paper]
+    permissions: 
+      contents: write
+    runs-on: ubuntu-24.04
+    if: ${{ github.repository == 'the-teachingRSE-project/ds2rse' && github.ref == 'refs/heads/main' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: github_artifacts
+      - name: move
+        run: mkdir -p github_deploy && mv github_artifacts/*/* github_deploy
+      - name: deploy on orphan branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./github_deploy
+          publish_branch: build
+          force_orphan: true
+    
