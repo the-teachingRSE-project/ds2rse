@@ -159,8 +159,18 @@ The long list of transversal competencies begs the question if there are also te
 
 
 # Conclusion
-
 (planned/potential future work on this)
+We have given a short and non-exhaustive introduction into the profiles of the RSE, the Data Scientist, and the Research Data Manager.
+We have sketched their historical Development in order to enable practitioners from the other field participate in the discussion.
+The research cycle has served us as a useful backdrop on which to compare data science and research software engineering.
+While we found differences we have also seen commonalities.
+We hope that future work delineates the differences better in order to sharpen the profile.
+Also it will be beneficial for the curriculum development of both fields to understand their commonalities in order to share academic resources.
+We hope that this contribution can serve as an entry for more discussion about RSE in the Data Science community, and about the Data
+Science profile in the RSE community and thereby raising the awarenes about each other in the communities.
+Among the broader trends in our world, we expect that a collaboration between the communities can be beneficial to
+harness the AI trend in a manner that is beneficial for public science.
+
 
 
 \printbibliography
