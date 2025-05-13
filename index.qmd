@@ -71,7 +71,12 @@ Some competencies are almost the equivalent to a knowledge-based learning goal w
 For the intent of this paper the additional mapping of knowledge areas to competency would be out of scope. However, the idea of outlining the fields and mapping corresponding aspects can be transferred analogously.
 The DS-BOK maps data science not only to software engineering but also to (research) data management (RDM). This is interesting as RDM is another intersecting cycle.
 
+
 (AND WHAT DOES THIS PAPER CONTRIBUTE? SUMMARIZE KEY INSIGHTS/FINDINGS HERE.)
+Our key contributions in this manuscript can be summarised as follows.
+We compared research software engineering and data science through the lens of the research cycle, examining how each discipline contributes at various stages.
+In doing so, we identified significant areas of overlap-such as the reliance on programming and analytical skills-as well as key differences in focus, methodology, and project outcomes.
+By devising a common language, we aim to highlight the shared competencies and curricular elements, fostering greater alignment and mutual understanding between the two fields.
 
 The paper is structured as follows. ...
 
