@@ -1,6 +1,8 @@
 # ds2rse
 Holds the paper project for INFORMATIK 2025 for comparative analysis of DS competencies and RSE competencies
 
+The precompiled current document can be found [here](https://github.com/the-teachingRSE-project/ds2rse/blob/build/index.pdf)
+
 ## HOW TO CONTRIBUTE
 
 - edit index.qmd following quarto markdown rules
@@ -39,6 +41,5 @@ Holds the paper project for INFORMATIK 2025 for comparative analysis of DS compe
 
 ## Known Problems
 
-- I had to install ngerman manually with tinytex (first finding out where quarto
-  put the tinytex executables)
+- I had to install ngerman manually with tinytex (first finding out where quarto put the tinytex executables)
 - Crossreferencing chapters does not work (for figures it does for some reason)
