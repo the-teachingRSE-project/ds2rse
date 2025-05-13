@@ -2,8 +2,7 @@
 title: "Preliminary Comparison of Research Software Engineering and Data Science Competences"
 keywords: [Research Software-Engineering, Data Science, Competences]
 abstract: |
-  Die LaTeX-Klasse `lni` setzt die Layout-Vorgaben für Beiträge in LNI Konferenzbänden um.
-  Dieses Dokument beschreibt ihre Verwendung und ist ein Beispiel für die entsprechende Darstellung.
+  Research Software Engineers (RSEs) and Data Scientists (DSs) occupy overlapping yet distinct roles within the landscape of digitally skilled professionals. Both roles are highly software-focused and operate across a wide range of research domains, yet their communities and competency frameworks have evolved independently. This paper explores the intersections and distinctions between RSE and DS competencies, particularly as they relate to different phases of the research cycle.
 
 format:
   pdf:
@@ -26,36 +25,33 @@ Computers and software have become vital elements of the research process across
 This importance of computation and digitally-aided data analysis in research means that digital skills are now required by researchers at all career levels.
 However, as there is a much wider range of digital skills required to support the modern research lifecycle than an individual researcher can master to perfection, there is increasing demand for people in specialist technical roles who can interface between researchers and their digital tools and processes. These technical professionals (increasingly becoming known within the UK research community as "digital Research Technical Professionals" -- dRTPs), provide targeted help, support and specialist technical expertise to researchers. Below we introduce some of the technical roles that have emerged in the research landscape over recent years (roughly in the order in which the terms started appearing).
 
-- **Research Data Managers** (also know as Data Stewards) are responsible for overseeing the lifecycle of research data, from its creation and collection to its storage, sharing, and preservation \cite{https://doi.org/10.5281/zenodo.4915861}.
+- **Research Data Managers** (also known as Data Stewards) are responsible for overseeing the lifecycle of research data, from its creation and collection to its storage, sharing, and preservation [@zenodo4915861].
   They are responsible for organizing, storing, and maintaining the integrity of data collected during research projects. They develop and implement data management plans, and offer advice to researchers on how to do this, ensuring data is accurate, secure, and compliant with legal and ethical standards in order to
-  improve the handling of research data at every point in the data cycle (FIXME: Insert picture of data cycle).
+  improve the handling of research data at every point in the data cycle.
   Research Data Managers work closely with researchers to support data collection, cleaning, documentation, and sharing. Additionally, they often facilitate data archiving and ensure that data is accessible for future use or replication.
-  Within Germany, numerous regional data managemnt networks have been formed. More information can be found at \cite{fdminfo}.
+  Within Germany, numerous regional data management networks have been formed. More information can be found at [@fdminfo].
 
 - **Data Scientists** are professionals who combine expertise in a range of areas that may include programming, statistics, machine learning, and specialist research domain knowledge to analyze and interpret complex data, particularly to uncover patterns, trends, and insights from large datasets. Data scientists often build predictive models, design experiments, and communicate results through visualizations and reports.
-  In academia, data scientists often collaborate with faculty members on academic research projects, applying data analysis techniques to disciplines like social science, biology, or education. However, data scientists also often work in industry to help comanies to effectily derive insights from corporate data and support business decisions.
-  Political representation in Germany is facilitated by the "German Data Science Society" \cite{gds}.
+  In academia, data scientists often collaborate with faculty members on academic research projects, applying data analysis techniques to disciplines like social science, biology, or education. However, data scientists also often work in industry to help companies to effectily derive insights from corporate data and support business decisions.
+  Political representation in Germany is facilitated by the "German Data Science Society" [@gds]. Data science supports systematic approaches to exploratory analysis, prediction, and decision-making [@George2016Big]. It integrates quantitative techniques with domain knowledge to address challenges in fields like management, wireless networks, business, and public health [@George2016Big], while also bridging traditional statistics with computational and theoretical innovations to enhance reproducibility, interpretability, and ethical data use [@Donoho201750]. In Germany, data science is institutionally supported by organizations such as the German Data Science Society [@George2016Big], and conceptualized through multiple, complementary frameworks. Steinmann and Drechsler describe it as the ability to extract insights from complex, high-dimensional data, highlighting its critical role in data-intensive research [@Steinmann2021Verzahnung]. The German Data Forum frames data science within a broader infrastructure that emphasizes valid and reliable data, robust management, and quality assurance practices [@ed2011Building]. Additionally, Hörner et al. position data science as a component of interdisciplinary doctoral education, emphasizing the importance of complementary competencies such as data literacy and stewardship [@Horner2021Disziplinubergreifendes].
 
-- **Research Software Engineers (RSEs)** combines expertise in software development with an understanding of research processes and academic goals \cite{https://doi.org/10.5281/zenodo.495360}. They develop, maintain, and improve the software that underpins modern research, ensuring it is reliable, reproducible, sustainable, and fit for scientific purposes.
+- **Research Software Engineers (RSEs)** combines expertise in software development with an understanding of research processes and academic goals [@zenodo495360]. They develop, maintain, and improve the software that underpins modern research, ensuring it is reliable, reproducible, sustainable, and fit for scientific purposes.
   RSEs may work within one of the increasing number of research software engineering teams that have been set up at universities and research organisations over the past decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow, or Software Engineer.
-  Regardless of their job title, RSEs share a set of core skills that are required to design and develop research software, understand the research environment, and ensure that they produce sustainable, maintainable code that supports reproducible research outputs, following the Findability, Accessibility, Interoperability and Reusability (FAIR) principles \cite{https://doi.org/10.12688/f1000research.157778.1}.
-  RSEs have organised themselves in various national societies, in Germany this is de-RSE e.V \cite{derseev}.
+  Regardless of their job title, RSEs share a set of core skills that are required to design and develop research software, understand the research environment, and ensure that they produce sustainable, maintainable code that supports reproducible research outputs, following the Findability, Accessibility, Interoperability and Reusability (FAIR) principles [@gorgolewski2017bids].
+  RSEs have organised themselves in various national societies, in Germany this is de-RSE e.V [@derseev].
 
-- **Research Infrastructure Engineers / High Performance Computing (HPC) Engineers** support the running of research computing infrastructure that is vital to support the demands of the modern research lifecycle. While people have undertaken such roles for many years, they have often been embedded within or been a part of wider system adminstration or management roles. With the expansion of digital research and the associated computing infrastructure, we are increasingly seeing dedicated HPC and research computing infrastrcture-focused roles that are based within teams or groups dedicated to supporting research computing. These individuals design, deploy and maintain research computing clusters and provide software and systems expertise to help researchers undertake their computations in an efficient and effective manner.
+- **Research Infrastructure Engineers / High Performance Computing (HPC) Engineers** support the running of research computing infrastructure that is vital to support the demands of the modern research lifecycle. While people have undertaken such roles for many years, they have often been embedded within or been a part of wider system administration or management roles. With the expansion of digital research and the associated computing infrastructure, we are increasingly seeing dedicated HPC and research computing infrastructure-focused roles that are based within teams or groups dedicated to supporting research computing. These individuals design, deploy and maintain research computing clusters and provide software and systems expertise to help researchers undertake their computations in an efficient and effective manner.
 
 While there is overlap between all these fields, we can summarise that RSEs focus on the creation of software in order to facilitate research using their Software Engineering (SE) skills.
 Research Data Managers focus on the data that is generated and/or used during the research process and provide infrastructure for better provisioning of the data.
 Data Scientists focus on gaining insight from the data that is generated somewhere.
 Research Infrastructure Engineers focus on provisioning and running the computing platforms that software and data experts often use to support their work.
 
-In this paper we focus on the competencies of RSEs and Data Scientists and compare and contrast the skills and activities of these two groups.
-(WHY?!)
-
 We focus our comparison in this paper on these two groups for three reasons:
 
  - Within the digital technical professionals space, RSEs and Data Scientists are the two groups whose skills are most software focused. In this context, there can be significant crossovers in the skills developed and used, even though the focus of the two roles can be quite different.
  - Similar to RSE, Data Science (DS) is a cross-cutting field that is applicable across a wide range of research domains. We believe it is important to understand how the application of competencies attributed to these roles may differ across domains.
- - Despite the crossover between DS and RSE roles, we observe that the communities representing these roles are quite disconnected or independent, perhaps becuase of the different communities through which these roles have developed - this is something we are keen to understand in more detail.
+ - Despite the crossover between DS and RSE roles, we observe that the communities representing these roles are quite disconnected or independent, perhaps because of the different communities through which these roles have developed - this is something we are keen to understand in more detail.
 
 The major computing organizations ACM and IEEE published a joint recommended computing curriculum which already includes data science: the Computing Curriculum 2020 [@CC2020] already lists DS as one of the special cases for computing competences.
 Whilst DS is mentioned, research software engineering was absent.
@@ -64,10 +60,7 @@ There are existing bodies of knowledge (BOKs) for both software engineering [@SW
 However, the connection between competencies and the corresponding knowledge canon remains complex and nuanced.
 Some competencies are almost the equivalent to a knowledge-based learning goal whereas others integrate several knowledge areas with active application skills.
 For the intent of this paper the additional mapping of knowledge areas to competency would be out of scope. However, the idea of outlining the fields and mapping corresponding aspects can be transferred analogously.
-
 The DS-BOK maps data science not only to software engineering but also to (research) data management (RDM). This is interesting as RDM is another intersecting cycle.
-
-Depending on the point of view, RSE could be considered as a subclass of DS or the other way around. In contrast, it takes a closer look on the interlinkage between the fields taking account of both the common competencies needed to be successful and the competencies that are specific to one of the areas.
 
 (AND WHAT DOES THIS PAPER CONTRIBUTE? SUMMARIZE KEY INSIGHTS/FINDINGS HERE.)
 
@@ -119,18 +112,19 @@ The lists of extracted DS and RSE competency clusters can be found in [@ds2rse20
 
 H1 could not be confirmed in the strict sense. Although the compiled competency clusters show that there is a stronger focus on certain stages of the research process for both RSE and DS competencies, both can be interpreted more generally to encompass all stages of the research cycle. Moreover, there are some competency description that seem very similar such as the focus on the research cycle for RSE and the data science lifecycle for DS. In terms of methodology simply comparing the existing mentions of competencies should not be regarded as the best possible proxy to the actual distribution in the field. A survey study asking practitioners and researchers where in the process they would place DS and RSE would yield far more convincing results. Still, self-evaluation might also be biased depending on the identity of the people working the in the respective fields.
 
+
 :::{=latex}
 \begin{figure}[h!]
 \centering
 \begin{minipage}{0.48\textwidth}
 \centering
-\includegraphics[width=\linewidth]{img/RC_RSE.pdf}
+\includegraphics[width=\linewidth]{img/RC_RSE_competences.pdf}
 \caption{RSE Competences in the Research Cycle}
 \label{fig:rc_rse}
 \end{minipage}\hfill
 \begin{minipage}{0.48\textwidth}
 \centering
-\includegraphics[width=\linewidth]{img/RC_DS.pdf}
+\includegraphics[width=\linewidth]{img/RC_DS_competences.pdf}
 \caption{DS Competences in the Research Cycle}
 \label{fig:rc_ds}
 \end{minipage}
