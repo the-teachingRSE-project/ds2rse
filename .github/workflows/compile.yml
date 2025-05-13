@@ -17,6 +17,8 @@ jobs:
           rm quarto.deb
       - name: install tinytex extension
         run: quarto install tinytex
+      - name: install german babel
+        run: tlmgr install babel-german
       - name: compile pdf
         run: quarto render index.qmd -- to pdf
       - name: Upload pdf as artifact
