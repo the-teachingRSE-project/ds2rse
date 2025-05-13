@@ -11,6 +11,11 @@ Holds the paper project for INFORMATIK 2025 for comparative analysis of DS compe
 ## HOW to run
 
 - install quarto with tinytex extension
+- **alternatively, if you already have TeX Live on your system** you don't need
+  tinytex: Just install the missing packages of your TeX Live installation.
+  You'll need the LaTeX class [`lni` (Lecture Notes in
+  Informatics)](https://www.ctan.org/pkg/lni). For Debian/Ubuntu based systems
+  this is included in the package [`texlive-publishers`](https://packages.debian.org/trixie/texlive-publishers).
 - run quarto render index.qmd --to pdf (should produce a pdf in LNI format)
 - debug problems in generated index.tex file
 - have a look at syntax_example.qmd for the most important quarto stuff
@@ -34,5 +39,6 @@ Holds the paper project for INFORMATIK 2025 for comparative analysis of DS compe
 
 ## Known Problems
 
-- I had to install ngerman manually with tinytex (first finding out where quarto put the tinytex executables)
+- I had to install ngerman manually with tinytex (first finding out where quarto
+  put the tinytex executables)
 - Crossreferencing chapters does not work (for figures it does for some reason)
