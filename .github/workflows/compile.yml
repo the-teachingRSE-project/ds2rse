@@ -16,7 +16,7 @@ jobs:
           sudo apt install -y ./quarto.deb
           rm quarto.deb
       - name: install tinytex extension
-        run: quarto install tinytex
+        run: quarto install tinytex --update-path
       - name: install german babel
         run: tlmgr install babel-german
       - name: compile pdf
