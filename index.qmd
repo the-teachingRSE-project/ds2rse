@@ -91,7 +91,13 @@ The focal point of the following chapter will revisit existing ideas for DS and 
 
 # Comparison Method
 
-Comparing newly emerging fields objectively is a methodological challenge. Since institutionalised programs and curricula are decided by governing bodies, communities and practices, reports or white papers would serve as the natural starting points. For  this case, the major computing organisations ACM and IEEE have already acknowledged the importance of data science in their joint recommended computing curriculum, the Computing Curriculum 2020 [@CC2020], which lists Data Science (DS) as one of the special cases for computing competences. Research Software Engineering, as a still emerging field that currently witnesses an active trailing discussion [@Goth2024RSE], is not included there. For this reason, the research cycle as discussed above was chosen as a _tertium comparationis_.
+Comparing newly emerging fields objectively is a methodological challenge.
+Since institutionalised programs and curricula are decided by governing bodies, communities and practices, reports or white papers would serve as the natural starting points.
+For  this case, the major computing organisations ACM and IEEE have already acknowledged the importance of data science in their joint recommended computing curriculum, the Computing Curriculum 2020 [@CC2020], which lists Data Science (DS) as one of the special cases for computing competences.
+Research Software Engineering, as a still emerging field that currently witnesses an active trailing discussion [@Goth2024RSE], is not included there.
+For this reason, the research cycle as discussed above was chosen as a _tertium comparationis_[^tertium].
+
+[^tertium]: tertium comparationis: the quality that two things which are being compared have in common
 
 In this paper the terms _competences_, _competencies_ and _expected learning outcomes_ are used interchangeably. For the intended audience the didactic discussions of output oriented didactics that pertain to the terminology are omitted. A practical introduction to the topic can be found in [@Dehne2021, p.112]. For the sake of clarifying the comparison mechanism it should be noted that we are looking at higher level abstractions of expected learning outcomes typical to the curriculum level of language. A more granular comparison that includes knowledge blocks could be part of future research.
 
