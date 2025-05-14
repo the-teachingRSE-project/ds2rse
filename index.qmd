@@ -26,7 +26,7 @@ Computers and software have become vital elements of the research process across
 This importance of computation and digitally-aided data analysis in research means that digital skills are now required by researchers at all career levels.
 However, as there is a much wider range of digital skills required to support the modern research lifecycle than an individual researcher can master to perfection, there is increasing demand for people in specialist technical roles who can interface between researchers and their digital tools and processes. These technical professionals (increasingly becoming known within the UK research community as "digital Research Technical Professionals" -- dRTPs), provide targeted help, support and specialist technical expertise to researchers. Below we introduce some of the technical roles that have emerged in the research landscape over recent years (roughly in the order in which the terms started appearing).
 
-- **Research Data Managers** (also know as Data Stewards) support the handling of data throughout the research data life-cycle
+- **Research Data Managers** (also known as Data Stewards) support the handling of data throughout the research data life-cycle
 including data acquisition, processing, storage and publication.
 The efficiency, validity and recognition of research in many domains today hinges on
 the quality, availability and reproducibility of data and data-transforming methods.
@@ -37,7 +37,7 @@ to topics traditionally associated with libraries, such as the preservation, pub
 Research Data Managers work closely with domain scientists but also facilitate researchers' communication with other services,
 such as the legal and IT department as well as the library.
 Within Germany, numerous regional data management networks have been formed.
-More information can be found at \cite{fdminfo}.
+More information can be found at [@fdminfo].
 
 - **Data Scientists** are professionals who combine expertise in a range of areas that may include programming, statistics, machine learning, and specialist research domain knowledge to analyze and interpret complex data, particularly to uncover patterns, trends, and insights from large datasets [@Steinmann2021Verzahnung]. Data scientists often build predictive models, design experiments, and communicate results through visualizations and reports, and help decision-making [@George2016Big].
   In academia, data scientists often collaborate with faculty members on academic research projects, applying data analysis techniques to disciplines like social science, biology, or education. However, data scientists also often work in industry to help companies to effectily derive insights from corporate data and support business decisions.
@@ -150,7 +150,7 @@ While we found differences we have also seen commonalities.
 We hope that future work delineates the differences better in order to sharpen the profile.
 Also it will be beneficial for the curriculum development of both fields to understand their commonalities in order to share academic resources.
 We hope that this contribution can serve as an entry for more discussion about RSE in the Data Science community, and about the Data
-Science profile in the RSE community and thereby raising the awarenes about each other in the communities.
+Science profile in the RSE community and thereby raising the awareness about each other in the communities.
 Among the broader trends in our world, we expect that a collaboration between the communities can be beneficial to
 harness the AI trend in a manner that is beneficial for public science.
 
