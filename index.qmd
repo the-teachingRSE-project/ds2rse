@@ -57,7 +57,7 @@ RDM, DS and RSE are cross-cutting fields that are applicable across a wide range
 In this paper, we focus our comparison on Research Software Engineers (RSEs) and Data Scientists, as they represent the two primary groups within the digital technical professionals space whose skills are most software-focused. 
 Our key contributions in this manuscript can be summarised as follows:
 We compare research software engineering and data science through the lens of the research cycle, examining how each discipline contributes at various stages.
-In doing so, we identified significant areas of overlap-such as the reliance on programming and analytical skills-as well as key differences in focus, methodology, and project outcomes.
+In doing so, we identified significant areas of overlap, such as the reliance on programming and analytical skills, as well as key differences in focus, methodology, and project outcomes.
 
 The paper is structured as follows. Section 2 discusses how RSE and DS are embedded in the research cycle. Section 3 describes our method for comparing RSE and DS competencies, before Section 4 discusses our findings. Section 5 concludes the paper. 
 
