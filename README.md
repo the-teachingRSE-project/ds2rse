@@ -25,11 +25,7 @@ The precompiled current document can be found [here](https://github.com/the-teac
 
 ## Content TODOs
 
-- write general text comparing DS and RSE
-- write chapter comparing the research process differences (DS is more in analysis part, RSE ?)
-- list main competences in DS (https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf)
-- compare competences in https://github.com/juliandehne/RSE-Masters/blob/tschira-funding/curriculum.txt 
-- get in touch with literature and flesh out ideas
+see issue 9
 
 ## Technical TODOs
 
