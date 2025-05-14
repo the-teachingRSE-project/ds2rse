@@ -50,25 +50,22 @@ More information can be found at \cite{fdminfo}.
   Regardless of their job title, RSEs share a set of core skills that are required to design and develop research software, understand the research environment, and ensure that they produce sustainable, maintainable code that supports reproducible research outputs, following the Findability, Accessibility, Interoperability and Reusability (FAIR) principles [@Goth2024RSE].
   RSEs have organised themselves in various national societies, in Germany this is de-RSE e.V [@derseev].
 
-- **Research Infrastructure Engineers / High Performance Computing (HPC) Engineers** support the running of research computing infrastructure that is vital to support the demands of the modern research lifecycle. While people have undertaken such roles for many years, they have often been embedded within or been a part of wider system administration or management roles. With the expansion of digital research and the associated computing infrastructure, we are increasingly seeing dedicated HPC and research computing infrastructure-focused roles that are based within teams or groups dedicated to supporting research computing. These individuals design, deploy and maintain research computing clusters and provide software and systems expertise to help researchers undertake their computations in an efficient and effective manner.
-
 While there is overlap between all these fields, we can summarise that Research Data Managers focus on the data that is generated and/or used during the research process and provide infrastructure for better provisioning of the data. Data Scientists focus on gaining insight from the data that is generated somewhere.
-RSEs focus on the creation of software in order to facilitate research using their Software Engineering (SE) skills, and  Research Infrastructure Engineers focus on provisioning and running the computing platforms that software and data experts often use to support their work.
+RSEs focus on the creation of software in order to facilitate research using their Software Engineering (SE) skills.
+RDM, DS and RSE are cross-cutting fields that are applicable across a wide range of research domains. We believe it is important to understand how the application of competences attributed to these roles may differ across domains. Despite the crossover between the respective roles, we observe that the communities representing these roles are quite disconnected or independent, perhaps because of the different communities through which these roles have developed - this is something we are keen to understand in more detail.
 
-In this paper, we focus our comparison on Research Software Engineers (RSEs) and Data Scientists, as they represent the two primary groups within the digital technical professionals space whose skills are most software-focused. Despite the distinct focuses of these roles, there can be significant overlap in the skills they develop and use. Notably, the major computing organizations ACM and IEEE have already acknowledged the importance of data science in their joint recommended computing curriculum, the Computing Curriculum 2020 [@CC2020], which lists Data Science (DS) as one of the special cases for computing competences. Research Software Engineering, as an emerging field whose representation in education is still under discussion [@Goth2024RSE], is not included there. However, there are existing bodies of knowledge (BOKs) for both software engineering [@SWEBOK2014] and data science [@DSBOK2017], each providing a comprehensive mapping of knowledge areas within their respective fields and in relation to the ACM computing curriculum. 
+In this paper, we focus our comparison on Research Software Engineers (RSEs) and Data Scientists, as they represent the two primary groups within the digital technical professionals space whose skills are most software-focused. 
+Our key contributions in this manuscript can be summarised as follows:
+We compare research software engineering and data science through the lens of the research cycle, examining how each discipline contributes at various stages.
+In doing so, we identified significant areas of overlap-such as the reliance on programming and analytical skills-as well as key differences in focus, methodology, and project outcomes.
+
+The paper is structured as follows. Section 2 discusses how RSE and DS are embedded in the research cycle. Section 3 describes our method for comparing RSE and DS competencies, before Section 4 discusses our findings. Section 5 concludes the paper. 
+
+TO DO Julian: Distribute to better suited places:
+Despite the distinct focuses of these roles, there can be significant crossovers in the skills they develop and use. Notably, the major computing organizations ACM and IEEE have already acknowledged the importance of data science in their joint recommended computing curriculum, the Computing Curriculum 2020 [@CC2020], which lists Data Science (DS) as one of the special cases for computing competences. Research Software Engineering, as a still emerging field that currently witnesses an active traiing discussion [@Goth2024RSE], is not included there. However, there are existing bodies of knowledge (BOKs) for both software engineering [@SWEBOK2014] and data science [@DSBOK2017], each providing a comprehensive mapping of knowledge areas within their respective fields and in relation to the ACM computing curriculum. 
 <!-- Notably, the Data Science Body of Knowledge (DS-BOK) maps data science not only to software engineering but also to (research) data management (RDM). This is particularly interesting as RDM represents another intersecting cycle, further highlighting the interconnected nature of these fields.-->
 The connection between competencies and the corresponding knowledge canon is complex and nuanced. Some competencies are nearly equivalent to knowledge-based learning goals, while others integrate multiple knowledge areas with active application skills. Although mapping knowledge areas to competencies is beyond the scope of this paper, the concept of outlining fields and mapping corresponding aspects can be applied analogously.
 
-<--! comment AL: points 2 and 3 also  apply to RDM and RIE, so not good arguments?
-2. Similar to RSE, Data Science (DS) is a cross-cutting field that is applicable across a wide range of research domains. We believe it is important to understand how the application of competences attributed to these roles may differ across domains.
-3. Despite the crossover between DS and RSE roles, we observe that the communities representing these roles are quite disconnected or independent, perhaps because of the different communities through which these roles have developed - this is something we are keen to understand in more detail. -->
-
-Our key contributions in this manuscript can be summarised as follows.
-We compare research software engineering and data science through the lens of the research cycle, examining how each discipline contributes at various stages.
-In doing so, we identified significant areas of overlap-such as the reliance on programming and analytical skills-as well as key differences in focus, methodology, and project outcomes.
-By devising a common language, we aim to highlight the shared competencies and curricular elements, fostering greater alignment and mutual understanding between the two fields.
-
-The paper is structured as follows. Section 2 discusses how RSE and DS are embedded in the research cycle. Section 3 describes our method for comparing RSE and DS competencies, before Section 4 discusses our findings. Section 5 concludes the paper. 
 
 # RSE and DS embeddings in the Research Cycle
 
@@ -147,7 +144,7 @@ The long list of transversal competencies begs the question if there are also te
 
 
 # Conclusion
-We have given a short and non-exhaustive introduction into the profiles of the Research Data Manager, the Data Scientist, the Research Software Engineer, and the Research Infrastructure Engineers. 
+We have given a short and non-exhaustive introduction into the profiles of the Research Data Manager, the Data Scientist, and the Research Software Engineer. 
 The research cycle has served us as a useful reference on which to compare data science and research software engineering.
 While we found differences we have also seen commonalities.
 We hope that future work delineates the differences better in order to sharpen the profile.
