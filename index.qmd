@@ -105,7 +105,7 @@ In the following, the content of [@GI2021DataScience] is parsed and used as curr
 of data science curricula in the German research context. The content is inspected for obvious links to the research process
 and interpreted if no explicit connections are made. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020].
 
-For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curriculums project [@RSECurriculums2021]. The RSE community has developed short codes for the RSE competencies. These are attached in the glossary in the corresponding repository [@ds2rse2025].
+For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curriculums project [@RSECurriculums2021]. The RSE community has defined short codes for the RSE competencies, which are attached in the glossary in the corresponding repository [@ds2rse2025].
 
 In addition, relevant competences from the research data management field [@petersen_2025_15025246] are included as they intersect with both DS and RSE.
 
