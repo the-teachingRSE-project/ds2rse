@@ -136,18 +136,21 @@ As visualised in Figure \ref{fig:rc_rse}, H1 could not be confirmed in the stric
 \end{figure}
 :::
 
-
 The most clear differences between DS and RSE are found in the design stage and the analysis stage. The design stage holds most of the competency clusters the RSE community defined. The DS counterpart is very general and many competencies listed there could in fact be construed as RSE-competencies that are imported for more complex cases. In contrast, the analysis stage is more connected to DS. This can be explained by the historic challenges software development faces in terms of clear-cut evaluation but also by the distribution of labour: if the RSE-job ends with the developed software and the core experiment or study uses the software as a tool, the analysis part is then handed over to the respective field specialists.
 
 Another reason for the design focus of RSE are the limited resources available. It is very time-consuming to both evaluate the impact of technology and also to evaluate the technology itself and its impact on the study. Comprehensive methods like Directed Acyclic Graph Modellings (DAGs) or Instrumental Variables try to tackle these nested evaluation issues but have not found widespread use. For that reason, the evaluation often concludes with the evaluation of the design part with instruments like the Technology Acceptance Model (TAM) or usability scales.
 
-
-H2 also had to be rejected: in fact, DS seems to contain more aspects outside the research cycle than RSE. As a major component of DS, analysis of data is clearly embedded in research. Still, DS includes more institutional, political and legal challenges than expected. Research Data Management (RDM) could be named as the most prominent of these. Due to the strong overlap of non-research related competencies, a joint list of competency clusters was compiled that contains the competences that are not research cycle related (also in the repository [@ds2rse2025]).
+H2 also had to be rejected:
+In fact, DS seems to contain more aspects outside the research cycle than RSE.
+As a major component of DS, analysis of data is clearly embedded in research.
+Still, DS includes more institutional, political and legal challenges than expected.
+A prominent part of these topics belongs to the core of RDM.
+This finding underscores how tightly DS is also intertwined with RDM
+and is reflected in the Data Science Body of Knowledge [@demchenko2017dsbok], which maps data science also to data management.
+Due to the strong overlap of non-research related competencies,
+a joint list of competency clusters was compiled that contains the competences that are not research cycle related (in the repository [@ds2rse2025]).
 
 The long list of transversal competencies begs the question if there are also technical competences that overlap. Even though this was not the focus of the analysis, these can be easily spotted by investigating the shift of data analysis to artificial intelligence based methods. Training, fine-tuning and mainstreaming large language models requires more and more computing power, stable infrastructure and network components. On the other hand, CPU-based software-engineering becomes less demanding and also profits from AI-generated algorithm and code development. However, not all software engineering boils down to the current AI-hype. In summary, there is no clear way of generalising whether DS or RSE need more and deeper understanding of computer science.
-
-
-
 
 # Conclusion
 
