@@ -50,7 +50,8 @@ More information can be found at \cite{fdminfo}.
   Regardless of their job title, RSEs share a set of core skills that are required to design and develop research software, understand the research environment, and ensure that they produce sustainable, maintainable code that supports reproducible research outputs, following the Findability, Accessibility, Interoperability and Reusability (FAIR) principles [@Goth2024RSE].
   RSEs have organised themselves in various national societies, in Germany this is de-RSE e.V [@derseev].
 
-While there is overlap between all these fields, we can summarise that Research Data Managers focus on the data that is generated and/or used during the research process and provide infrastructure for better provisioning of the data. Data Scientists focus on gaining insight from the data that is generated somewhere.
+While there is overlap between all these fields, we can summarise that Research Data Managers focus on the data that is acquired, used and generated to do scientific work and provide guidance, support and tooling to ensure data quality and reusability. Data Scientists focus on gaining insight from the data that is generated somewhere else.
+
 RSEs focus on the creation of software in order to facilitate research using their Software Engineering (SE) skills.
 RDM, DS and RSE are cross-cutting fields that are applicable across a wide range of research domains. We believe it is important to understand how the application of competences attributed to these roles may differ across domains. Despite the crossover between the respective roles, we observe that the communities representing these roles are quite disconnected or independent, perhaps because of the different communities through which these roles have developed - this is something we are keen to understand in more detail.
 
