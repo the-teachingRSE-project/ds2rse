@@ -101,7 +101,7 @@ For this reason, the research cycle as discussed above was chosen as a _tertium 
 
 In this paper the terms _competences_, _competencies_ and _expected learning outcomes_ are used interchangeably. For the intended audience the didactic discussions of output oriented didactics that pertain to the terminology are omitted. A practical introduction to the topic can be found in [@Dehne2021, p.112]. For the sake of clarifying the comparison mechanism it should be noted that we are looking at higher level abstractions of expected learning outcomes typical to the curriculum level of language. A more granular comparison that includes knowledge blocks could be part of future research.
 
-In the following the contents of [@GI2021DataScience] is parsed as the most current examples
+In the following, the content of [@GI2021DataScience] is parsed as the most current examples
 of data science curricula in the German research context. The contents are inspected for obvious links to the research process
 and interpreted if no explicit connections are made. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020].
 
