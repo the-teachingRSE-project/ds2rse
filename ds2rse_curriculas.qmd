@@ -24,7 +24,7 @@ _2. Design_
 **RSE Competencies:**
 
 - Software Design
-- Software re-use strategies (`SRU`)
+- Software discovery & re-use strategies  (`SRU`)
 - Creating documented code building blocks (`DOCBB`)
 - Software behavior analysis (`MOD`)
 - Building distributable software (`DIST`)
@@ -84,14 +84,15 @@ _5. Dissemination_
 - FAIR principles and reproducibility practices
 - Preparation of software and models for open science platforms
 - Communicating findings across disciplinary and public boundaries
+- Application of Data Science in real-world domain projects
 
 _6. Reflexion and Improvements_
 
 **RSE Competencies:**
 
-- Continuous integration and testing (`SWLC`, `MOD`)
 - Feedback-informed iterative development
 - Mentoring, community involvement, and ethics (`TEAM`, `USERS`)
+- Leading research (`NEW`)
 
 **Data Science Competencies:**
 
@@ -99,7 +100,6 @@ _6. Reflexion and Improvements_
 - Model tuning, reengineering, and lifecycle updates
 - Reinforcement learning and emerging AI models
 - Responsible innovation, economic awareness, data sovereignty
-- Application of Data Science in real-world domain projects
 
 
 
