@@ -32,15 +32,16 @@ The efficiency, validity and recognition of research in many domains today hinge
 the quality, availability and reproducibility of data and data-transforming methods.
 Research Data Management (RDM) therefore has become a cross-cutting field with a large number of sub-topics
 that range from legal themes, e.g. licenses, data usage agreements and data protection laws
-over technical themes related to the organization, storage, transport, transformation, annotation and analysis of digital data
+over technical themes related to the organisation, storage, transport, transformation, annotation and analysis of digital data
 to topics traditionally associated with libraries, such as the preservation, publication and dissemination of research data [@Gruber2021; @Jetten2021].
 Research Data Managers work closely with domain scientists but also facilitate researchers' communication with other services,
 such as the legal and IT department as well as the library.
 Within Germany, numerous regional data management networks have been formed.
 More information can be found at [@fdminfo].
 
-- **Data Scientists** are professionals who combine expertise in a range of areas that may include programming, statistics, machine learning, and specialist research domain knowledge to analyze and interpret complex data, particularly to uncover patterns, trends, and insights from large datasets [@Steinmann2021Verzahnung]. Data scientists often build predictive models, design experiments, and communicate results through visualizations and reports, and help decision-making [@George2016Big].
-  In academia, data scientists often collaborate with faculty members on academic research projects, applying data analysis techniques to disciplines like social science, biology, or education. However, data scientists also often work in industry to help companies to effectily derive insights from corporate data and support business decisions.
+- **Data Scientists** are professionals who combine expertise in a range of areas that may include programming, statistics, machine learning, and specialist research domain knowledge to analyse and interpret complex data, particularly to uncover patterns, trends, and insights from large datasets [@Steinmann2021Verzahnung]. Data scientists often build predictive models, design experiments, and communicate results through visualisations and reports, and help decision-making [@George2016Big].
+  In academia, data scientists often collaborate with faculty members on academic research projects, applying data analysis techniques to disciplines like social science, biology, or education.
+  However, data scientists also often work in industry to help companies to effectively derive insights from corporate data and support business decisions.
   Political representation in Germany is facilitated by the "German Data Science Society" [@gds]. 
 
 <!-- It integrates quantitative techniques with domain knowledge to address challenges in fields like management, wireless networks, business, and public health [@George2016Big], while also bridging traditional statistics with computational and theoretical innovations to enhance reproducibility, interpretability, and ethical data use [@Donoho201750]. In Germany, data science is institutionally supported by organizations such as the German Data Science Society [@George2016Big], and conceptualized through multiple, complementary frameworks. Steinmann and Drechsler describe it as the ability to extract insights from complex, high-dimensional data, highlighting its critical role in data-intensive research [@Steinmann2021Verzahnung]. The German Data Forum frames data science within a broader infrastructure that emphasizes valid and reliable data, robust management, and quality assurance practices [@ed2011Building]. Additionally, Hörner et al. position data science as a component of interdisciplinary doctoral education, emphasizing the importance of complementary competencies such as data literacy and stewardship [@Horner2021Disziplinubergreifendes].-->
@@ -64,11 +65,11 @@ This paper is structured as follows. Section 2 discusses how RSE and DS are embe
 
 # RSE and DS embeddings in the Research Cycle
 
-Both RSE and DS can be conceptualized as a cross-cutting concern in many disciplines. However, the definition and relevance of these issues can be generalized based on the function they fulfill in the research cycle (see @fig-research_cycle).
+Both RSE and DS can be conceptualised as a cross-cutting concern in many disciplines. However, the definition and relevance of these issues can be generalised based on the function they fulfill in the research cycle (see @fig-research_cycle).
 
 There are different research processes depending on the discipline and the research question. However, [@Dehne2021] showed that most of the research processes contain the following phases:
 
-1. conceptualization (developing research questions, concepts)
+1. conceptualisation (developing research questions, concepts)
 2. design (developing the tools, instruments and concrete process models)
 3. implementation (executing the experiment, study)
 4. analysis & interpretation
