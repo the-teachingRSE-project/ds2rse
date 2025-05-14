@@ -41,6 +41,5 @@ The precompiled current document can be found [here](https://github.com/the-teac
 
 ## Known Problems
 
-- I had to install ngerman manually with tinytex (first finding out where quarto
-  put the tinytex executables)
+- I had to install ngerman manually with tinytex (first finding out where quarto put the tinytex executables)
 - Crossreferencing chapters does not work (for figures it does for some reason)
