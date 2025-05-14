@@ -1,4 +1,4 @@
-name: compilepaper
+name: Compile results
 on:
   push:
     branches: [ "main" ]
@@ -19,8 +19,8 @@ jobs:
         run: quarto install tinytex --update-path
       - name: compile and move pdfs 
         run: |
-          quarto render ds2rse_curriculas.qmd -- to pdf -o ds2rse_inside_cycle.pdf
-          quarto render ds2rse_curriculas2.qmd -- to pdf -o ds2rse_outside_cycle.pdf
+          quarto render ds2rse_curriculas.qmd --to pdf -o ds2rse_inside_cycle.pdf
+          quarto render ds2rse_curriculas2.qmd --to pdf -o ds2rse_outside_cycle.pdf
           mv ds2rse_inside_cycle.pdf results
           mv ds2rse_outside_cycle.pdf results
       - name: Upload pdf as artifact
