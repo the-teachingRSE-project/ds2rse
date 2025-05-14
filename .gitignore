@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+tmp/
+/index.tex
+*.aux
+/index.pdf
