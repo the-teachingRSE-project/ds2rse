@@ -101,17 +101,24 @@ For this reason, the research cycle as discussed above was chosen as a _tertium 
 
 In this paper the terms _competences_, _competencies_ and _expected learning outcomes_ are used interchangeably. For the intended audience the didactic discussions of output oriented didactics that pertain to the terminology are omitted. A practical introduction to the topic can be found in [@Dehne2021, p.112]. For the sake of clarifying the comparison mechanism it should be noted that we are looking at higher level abstractions of expected learning outcomes typical to the curriculum level of language. A more granular comparison that includes knowledge blocks could be part of future research.
 
-In the following, the content of [@GI2021DataScience] is parsed and used as current examples
-of data science curricula in the German research context. The content is inspected for obvious links to the research process
-and interpreted if no explicit connections are made. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020].
+In the following, the content of [@GI2021DataScience] is analyzed and used as current examples
+of data science curricula in the German research context. The content is interpreted in regard to links to the research process. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020]. They were added to the content analysis and used to extend the findings.
 
 For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curricula project [@RSECurriculums2021]. The RSE community has defined short codes for the RSE competencies, which are attached in the glossary in the corresponding repository [@ds2rse2025].
 
 In addition, relevant competences from the research data management field [@petersen_2025_15025246] are included as they intersect with both DS and RSE.
 
+The lists of extracted DS and RSE competency clusters can be found in [@ds2rse2025]. We also plan to publish a full table of RSE competencies (and possible DS competencies) sorted by clusters. In terms of this top-level discussion the competency clusters are sufficient to compare the differences with regard to the research cycle.
+
+In summary, the following steps were made:
+
+- find or extract categories of competencies for different fields from existing documents
+- assign those competencies to one or multiple stages of the research cycle
+- visualize this categorization similarly to the research cycle
+- collect the mapped competencies in the repository for further developement
+
 In terms of methodology it should be noted that this approach follows a community-driven consensus building. It should not be mistaken for a review study with measurable inter-subjectivity based on instruments like PRISMA [@Page2021PRISMA].
 
-The lists of extracted DS and RSE competency clusters can be found in [@ds2rse2025]. We also plan to publish a full table of RSE competencies (and possible DS competencies) sorted by clusters. In terms of this top-level discussion the competency clusters are sufficient to compare the differences with regard to the research cycle.
 
 # Results and Discussion
 
