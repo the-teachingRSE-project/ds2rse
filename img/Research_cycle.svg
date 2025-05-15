@@ -7,7 +7,7 @@
    viewBox="0 0 173.13741 173.13741"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="Research_cycle.svg"
    inkscape:export-filename="Research_cycle.pdf"
    inkscape:export-xdpi="96"
@@ -28,14 +28,15 @@
      inkscape:document-units="mm"
      showguides="true"
      inkscape:zoom="2.0000001"
-     inkscape:cx="244.74999"
-     inkscape:cy="316.24999"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="276.24999"
+     inkscape:cy="336.74998"
+     inkscape:window-width="2560"
+     inkscape:window-height="1527"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer2"
+     showgrid="false">
     <sodipodi:guide
        position="151.25761,210.45328"
        orientation="0,-1"
@@ -172,15 +173,15 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect36);display:inline;fill:#f4cae4;fill-opacity:1;stroke:none;stroke-width:2.89134;stroke-dasharray:none"><tspan
          x="275.86914"
          y="238.3928"
-         id="tspan2"><tspan
+         id="tspan551"><tspan
            dx="0 19.565083 16.313786 16.313782 6.5169182 6.5169182 14.666656 16.313782 8.1497269 6.516922 16.313782 16.313789 8.1497192 19.565094"
-           id="tspan1">Application/S
+           id="tspan549">Application/S
 </tspan></tspan><tspan
          x="275.86914"
          y="275.05943"
-         id="tspan4"><tspan
+         id="tspan555"><tspan
            dx="0 21.183569 6.5169201 14.666649 14.666649 16.313786 24.434868 6.516922 16.313782 16.313782 8.1497345 6.516922"
-           id="tspan3">Disseminatio</tspan></tspan></text>
+           id="tspan553">Disseminatio</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -369,12 +370,12 @@
          style="font-size:7.05556px;stroke-width:0.765"
          x="120.13319"
          y="155.6552"
-         id="tspan39-8-8">Concept-</tspan><tspan
+         id="tspan39-8-8">Concep-</tspan><tspan
          sodipodi:role="line"
          style="font-size:7.05556px;stroke-width:0.765"
          x="120.13319"
          y="164.47466"
-         id="tspan43">ualization</tspan></text>
+         id="tspan43">tualisation</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
