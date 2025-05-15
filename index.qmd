@@ -20,7 +20,7 @@ format:
 
 ---
 
-# Introduction
+# Introduction {#sec-introduction}
 
 Computers and software have become vital elements of the research process across almost all domains. They enable researchers to collect and process ever-increasing amounts of data, simulate a wide range of phenomena on previously unexplored scales, and discover previously inconceivably complex structures in nature and societies via machine learning.
 This importance of computation and digitally-aided data analysis in research means that digital skills are now required by researchers at all career levels.
@@ -61,9 +61,9 @@ Our key contributions in this manuscript can be summarised as follows:
 we compare research software engineering and data science through the lens of the research cycle, examining how each discipline contributes at various stages.
 In doing so, we identified significant areas of overlap, such as the reliance on programming and analytical skills, as well as key differences in focus, methodology, and project outcomes.
 
-This paper is structured as follows. Section 2 discusses how RSE and DS are embedded in the research cycle. Section 3 describes our method for comparing RSE and DS competencies, before section 4 discusses our findings. Section 5 concludes the paper.
+This paper is structured as follows. @sec-cycle discusses how RSE and DS are embedded in the research cycle. @sec-method describes our method for comparing RSE and DS competencies, before @sec-results discusses our findings. @sec-conclusion concludes the paper.
 
-# RSE and DS embeddings in the Research Cycle
+# RSE and DS embeddings in the Research Cycle {#sec-cycle}
 
 Both RSE and DS can be conceptualised as a cross-cutting concern in many disciplines. However, the definition and relevance of these issues can be generalised based on the function they fulfil in the research cycle (see @fig-research_cycle).
 
@@ -89,7 +89,7 @@ As a working hypothesis based on the example above and experience in the field w
 The focal point of the following chapter will revisit existing ideas for DS and RSE curricula and map the competences outlined there to the phases in the research process. This should give the abstract discussion above empirical grounding and can be used to test the hypothesis.
 
 
-# Comparison Method
+# Comparison Method {#sec-method}
 
 Comparing newly emerging fields objectively is a methodological challenge.
 Since institutionalised programs and curricula are decided by governing bodies, communities and practices, reports or white papers would serve as the natural starting points.
@@ -120,7 +120,7 @@ In summary, the following steps were made:
 In terms of methodology it should be noted that this approach follows a community-driven consensus building. It should not be mistaken for a review study with measurable inter-subjectivity based on instruments like PRISMA [@Page2021PRISMA].
 
 
-# Results and Discussion
+# Results and Discussion {#sec-results}
 
 As visualised in Figure \ref{fig:rc_rse}, H1 could not be confirmed in the strict sense. Although the compiled competency clusters show that there is a stronger focus on certain stages of the research process for both RSE and DS competencies, both can be interpreted more generally to encompass all stages of the research cycle. Moreover, there are some competency descriptions that seem very similar such as the focus on the research cycle for RSE and the data science lifecycle for DS. In terms of methodology simply comparing the existing mentions of competencies should not be regarded as the best possible proxy to the actual distribution in the field. A survey study asking practitioners and researchers where in the process they would place DS and RSE would yield far more convincing results. Still, self-evaluation might also be biased depending on the identity of the people working the in the respective fields.
 
@@ -159,7 +159,7 @@ a joint list of competency clusters was compiled that contains the competences t
 
 
 
-# Conclusion
+# Conclusion {#sec-conclusion}
 
 We have given a short and non-exhaustive introduction into the profiles of the Research Data Manager, the Data Scientist, and the Research Software Engineer. 
 The research cycle has served us as a useful reference on which to compare data science and research software engineering.
