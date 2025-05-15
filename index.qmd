@@ -22,9 +22,9 @@ format:
 
 # Introduction
 
-Computers and software have become vital elements of the research process across almost all domains. They enable researchers to collect and process ever-increasing amounts of data, simulate a wide range of phenomena on previously unexplored scales, and discover previously inconceivably complex structures in nature and societies via machine learning (ML).
+Computers and software have become vital elements of the research process across almost all domains. They enable researchers to collect and process ever-increasing amounts of data, simulate a wide range of phenomena on previously unexplored scales, and discover previously inconceivably complex structures in nature and societies via machine learning.
 This importance of computation and digitally-aided data analysis in research means that digital skills are now required by researchers at all career levels.
-However, as there is a much wider range of digital skills required to support the modern research lifecycle than an individual researcher can master, there is increasing demand for people in specialist technical roles who can interface between researchers and their digital tools and processes. These technical professionals (increasingly becoming known within the UK research community as "digital Research Technical Professionals" -- dRTPs), provide targeted help, support and specialist technical expertise to researchers. Below we introduce some of the technical roles that have emerged in the research landscape over recent years (roughly in the order in which the terms started appearing).
+However, as there is a much wider range of digital skills required to support the modern research lifecycle than an individual researcher can master, there is increasing demand for people in specialist roles who can interface between researchers and their digital tools and processes. These professionals (increasingly becoming known within the UK research community as "digital Research Technical Professionals" -- dRTPs), provide targeted help, support and specialist expertise to researchers. Below we introduce some of the roles that have emerged in the research landscape over recent years (roughly in the order in which the terms started appearing).
 
 - **Research Data Managers** (also known as Data Stewards) support the handling of data throughout the research data life-cycle
 including data acquisition, processing, storage and publication.
@@ -101,11 +101,11 @@ For this reason, the research cycle as discussed above was chosen as a _tertium 
 
 In this paper the terms _competences_, _competencies_ and _expected learning outcomes_ are used interchangeably. For the intended audience the didactic discussions of output oriented didactics that pertain to the terminology are omitted. A practical introduction to the topic can be found in [@Dehne2021, p.112]. For the sake of clarifying the comparison mechanism it should be noted that we are looking at higher level abstractions of expected learning outcomes typical to the curriculum level of language. A more granular comparison that includes knowledge blocks could be part of future research.
 
-In the following the contents of [@GI2021DataScience] is parsed as the most current examples
-of data science curricula in the German research context. The contents are inspected for obvious links to the research process
+In the following, the content of [@GI2021DataScience] is parsed and used as current examples
+of data science curricula in the German research context. The content is inspected for obvious links to the research process
 and interpreted if no explicit connections are made. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020].
 
-For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curriculums project [@RSECurriculums2021]. The RSE community has developed short codes for the RSE competencies. These are attached in the glossary in the corresponding repository [@ds2rse2025].
+For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curricula project [@RSECurriculums2021]. The RSE community has defined short codes for the RSE competencies, which are attached in the glossary in the corresponding repository [@ds2rse2025].
 
 In addition, relevant competences from the research data management field [@petersen_2025_15025246] are included as they intersect with both DS and RSE.
 
@@ -115,7 +115,7 @@ The lists of extracted DS and RSE competency clusters can be found in [@ds2rse20
 
 # Results and Discussion
 
-As visualised in Figure \ref{fig:rc_rse}, H1 could not be confirmed in the strict sense. Although the compiled competency clusters show that there is a stronger focus on certain stages of the research process for both RSE and DS competencies, both can be interpreted more generally to encompass all stages of the research cycle. Moreover, there are some competency description that seem very similar such as the focus on the research cycle for RSE and the data science lifecycle for DS. In terms of methodology simply comparing the existing mentions of competencies should not be regarded as the best possible proxy to the actual distribution in the field. A survey study asking practitioners and researchers where in the process they would place DS and RSE would yield far more convincing results. Still, self-evaluation might also be biased depending on the identity of the people working the in the respective fields.
+As visualised in Figure \ref{fig:rc_rse}, H1 could not be confirmed in the strict sense. Although the compiled competency clusters show that there is a stronger focus on certain stages of the research process for both RSE and DS competencies, both can be interpreted more generally to encompass all stages of the research cycle. Moreover, there are some competency descriptions that seem very similar such as the focus on the research cycle for RSE and the data science lifecycle for DS. In terms of methodology simply comparing the existing mentions of competencies should not be regarded as the best possible proxy to the actual distribution in the field. A survey study asking practitioners and researchers where in the process they would place DS and RSE would yield far more convincing results. Still, self-evaluation might also be biased depending on the identity of the people working the in the respective fields.
 
 
 :::{=latex}
@@ -136,12 +136,20 @@ As visualised in Figure \ref{fig:rc_rse}, H1 could not be confirmed in the stric
 \end{figure}
 :::
 
-
-The most clear differences between DS and RSE are found in the design stage and the analysis stage. The design stage holds most of the competency clusters the RSE community defined. The DS counterpart is very general and many competencies listed there could in fact be construed as RSE-competencies that are imported for more complex cases. In contrast, the analysis stage is more connected to DS. This can be explained by the historic challenges software development faces in terms of clear-cut evaluation but also by the distribution of labour: if the RSE-job ends with the developed software and the core experiment or study uses the software as a tool, the analysis part is then handed over to the respective field specialists.
+The clearest differences between DS and RSE are found in the design stage and the analysis stage. The design stage holds most of the competency clusters the RSE community defined. The DS counterpart is very general and many competencies listed there could in fact be construed as RSE-competencies that are imported for more complex cases. In contrast, the analysis stage is more connected to DS. This can be explained by the historic challenges software development faces in terms of clear-cut evaluation but also by the distribution of labour: if the RSE-job ends with the developed software and the core experiment or study uses the software as a tool, the analysis is then handed over to the respective field specialists.
 
 On the other hand, there are research fields and questions where research software as a tool is also the object of study. For example in educational research the effect of a Virtual Reality setting on learning outcomes is examined [@wiepke2022]. Here, the software presents new variables and interaction effects that warrant an investigation in their own right. To do that, the RS-Engineer would have to take on an integral part in the analysis phase of the project. Comprehensive methods such as Directed Acyclic Graph Modelling [@10.1001/jama.2022.1816] and Instrumental Variables [@bowden1990instrumental] to tackle these nested evaluation issues exist but are very complex, even in DS study programs rarely taught, and resource-intensive. For that reason, the overarching analysis of the experiment receives less attention than the design evaluation phase in which RSE-type work plays an important role.
 
-H2 also had to be rejected: in fact, DS seems to contain more aspects outside the research cycle than RSE. As a major component of DS, analysis of data is clearly embedded in research. Still, DS includes more institutional, political and legal challenges than expected. Research Data Management (RDM) could be named as the most prominent of these. Due to the strong overlap of non-research related competencies, a joint list of competency clusters was compiled that contains the competences that are not research cycle related (also in the repository [@ds2rse2025]).
+H2 also had to be rejected:
+In fact, DS seems to contain more aspects outside the research cycle than RSE.
+As a major component of DS, analysis of data is clearly embedded in research.
+Still, DS includes more institutional, political and legal challenges than expected.
+A prominent part of these topics belongs to the core of RDM.
+This finding underscores how tightly DS is also intertwined with RDM
+and is reflected in the Data Science Body of Knowledge [@demchenko2017dsbok], which maps data science also to data management.
+Due to the strong overlap of non-research related competencies,
+a joint list of competency clusters was compiled that contains the competences that are not research cycle related (in [@ds2rse2025]).
+
 
 
 # Conclusion

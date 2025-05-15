@@ -1,10 +1,12 @@
 
 ## DS and RSE Competences in relation to the Research Cycle
-The RSE competencies can  be structured into four major pillars as done in [@Goth2024].
-It is a research pillar, indicating that RSEs have a deep knowledge how science works, at best enabling them to participate in research.
-software skills, that enable them to write proper software for science,
-and team skills, to work well in interdisciplinary teams.
-Their specialization on software makes RSEs an instance of RTPs(research technical professional) that work to support science.
+
+The RSE competencies can be structured into three major pillars as done in [@Goth2024].
+Those are: a research pillar, indicating that RSEs have a deep knowledge how science works, at best enabling them to participate in research,
+a software/technical skills pillar, that enable them to write proper software for science,
+and a team skills pillar, to work well in interdisciplinary teams.
+Their specialization on software makes RSEs an instance of RTPs (research technical professional) that work to support science.
+
 
 _1. Conceptualization_
 

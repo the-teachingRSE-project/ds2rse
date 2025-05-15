@@ -7,7 +7,7 @@
    viewBox="0 0 225.28244 225.26033"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="RC_DS_competences.svg"
    inkscape:export-filename="RC_DS_competences.pdf"
    inkscape:export-xdpi="96"
@@ -28,14 +28,15 @@
      inkscape:document-units="mm"
      showguides="true"
      inkscape:zoom="2"
-     inkscape:cx="449.75"
-     inkscape:cy="395.25"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="333.75"
+     inkscape:cy="300.75"
+     inkscape:window-width="2560"
+     inkscape:window-height="1527"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer2"
+     showgrid="false">
     <sodipodi:guide
        position="112.61956,201.21694"
        orientation="1,0"
@@ -121,15 +122,15 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect36);display:inline;fill:#f4cae4;fill-opacity:1;stroke:none;stroke-width:2.89134;stroke-dasharray:none"><tspan
          x="275.86914"
          y="238.3928"
-         id="tspan2"><tspan
+         id="tspan633"><tspan
            dx="0 19.565083 16.313786 16.313782 6.5169182 6.5169182 14.666656 16.313782 8.1497269 6.516922 16.313782 16.313789 8.1497192 19.565094"
-           id="tspan1">Application/S
+           id="tspan631">Application/S
 </tspan></tspan><tspan
          x="275.86914"
          y="275.05943"
-         id="tspan4"><tspan
+         id="tspan637"><tspan
            dx="0 21.183569 6.5169201 14.666649 14.666649 16.313786 24.434868 6.516922 16.313782 16.313782 8.1497345 6.516922"
-           id="tspan3">Disseminatio</tspan></tspan></text>
+           id="tspan635">Disseminatio</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -236,7 +237,7 @@
          sodipodi:role="line"
          x="89.148033"
          y="146.98431"
-         id="tspan6">Visualization Theory</tspan><tspan
+         id="tspan6">Visualisation Theory</tspan><tspan
          sodipodi:role="line"
          x="89.148033"
          y="154.03987"
@@ -360,7 +361,7 @@
          sodipodi:role="line"
          x="9.0757608"
          y="86.990036"
-         id="tspan18">Multivariate Visualization</tspan></text>
+         id="tspan18">Multivariate Visualisation</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
