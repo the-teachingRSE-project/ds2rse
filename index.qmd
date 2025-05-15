@@ -112,10 +112,10 @@ The lists of extracted DS and RSE competency clusters can be found in [@ds2rse20
 
 In summary, the following steps were made:
 
-- find or extract categories of competencies for different fields from existing documents
-- assign those competencies to one or multiple stages of the research cycle
-- visualize this categorization similarly to the research cycle
-- collect the mapped competencies in the repository for further developement
+1. find or extract categories of competencies for different fields from existing documents
+2. assign those competencies to one or multiple stages of the research cycle
+3. visualize this categorization similarly to the research cycle
+4. collect the mapped competencies in the repository for further development
 
 In terms of methodology it should be noted that this approach follows a community-driven consensus building. It should not be mistaken for a review study with measurable inter-subjectivity based on instruments like PRISMA [@Page2021PRISMA].
 
