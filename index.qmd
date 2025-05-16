@@ -104,7 +104,8 @@ In this paper the terms _competences_, _competencies_ and _expected learning out
 In the following, the content of [@GI2021DataScience] is analyzed and used as current examples
 of data science curricula in the German research context. The content is interpreted in regard to links to the research process. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020]. They were added to the content analysis and used to extend the findings.
 
-For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curricula project [@RSECurriculums2021]. The RSE community has defined short codes for the RSE competencies, which are attached in the glossary in the corresponding repository [@ds2rse2025].
+For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curricula project [@RSECurriculums2021]. 
+The RSE community has defined short codes for the RSE competencies, which are listed in the glossary appendix of [@Goth2024RSE].
 
 In addition, relevant competences from the research data management field [@petersen_2025_15025246] are included as they intersect with both DS and RSE.
 
