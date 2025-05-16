@@ -21,8 +21,10 @@ jobs:
         run: |
           quarto render ds2rse_curriculas.qmd --to pdf -o ds2rse_inside_cycle.pdf
           quarto render ds2rse_curriculas2.qmd --to pdf -o ds2rse_outside_cycle.pdf
+          quarto render glossary.qmd --to pdf -o glossary.pdf
           mv ds2rse_inside_cycle.pdf results
           mv ds2rse_outside_cycle.pdf results
+          mv glossary.pdf results
       - name: Upload pdf as artifact
         uses: actions/upload-artifact@v4
         with:
