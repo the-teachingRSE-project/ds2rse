@@ -168,8 +168,7 @@ While we found differences we have also seen commonalities both within and outsi
 The connection between competencies and the corresponding knowledge canon is complex and nuanced. Some competencies are nearly equivalent to knowledge-based learning goals, while others integrate multiple knowledge areas with active application skills. Although mapping knowledge areas to competencies is beyond the scope of this paper, the concept of outlining fields and mapping corresponding aspects can be applied analogously. Future work will extend the competency mapping to knowledge-clusters [@SWEBOK2014; @DSBOK2017]. Thus, more and more RSE competence descriptions can be integrated as the field becomes more prominent. We hope that future work delineates the differences with more detail in order to sharpen the profile of RSE as a field. Moreover, RDM needs to be fully integrated as a third intersection. In the context of this paper RDM was considered only indirectly with the function of providing terminology and concepts that are common but under-specified in the DS and RSE fields.
 
 Also, it will be beneficial for the curriculum development of both fields to understand their commonalities in order to share academic resources.
-We hope that this contribution can serve as an entry for more discussion about RSE in the DS community, and about the DS profile in the RSE community and thereby raising the awareness about each other in the communities. Among the broader trends in our world, we expect that a collaboration between the communities can be beneficial to
-harness the AI trend in a manner that is beneficial for open science.
+We hope that this contribution can serve as an entry for more discussion about RSE in the DS community, and about the DS profile in the RSE community and thereby raising the awareness about each other in the communities.
 
 
 

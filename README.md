@@ -38,4 +38,3 @@ see issue 9
 ## Known Problems
 
 - I had to install ngerman manually with tinytex (first finding out where quarto put the tinytex executables)
-- Crossreferencing chapters does not work (for figures it does for some reason)
