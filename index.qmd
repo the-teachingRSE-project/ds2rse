@@ -51,15 +51,12 @@ More information can be found at [@fdminfo].
   *"Regardless of their job title, RSEs share a set of core skills that are required to design and develop research software, understand the research environment, and ensure that they produce sustainable, maintainable code that supports reproducible research outputs, following the Findability, Accessibility, Interoperability and Reusability (FAIR) principles"* [@Goth2024RSE].
   RSEs have organised themselves in various national societies, in Germany this is de-RSE e.V [@derseev].
 
-While there is overlap between all these fields, we can summarise that Research Data Managers focus on the data that is acquired, used and generated to do scientific work and provide guidance, support and tooling to ensure data quality and reusability. Data Scientists focus on gaining insight from the data that is generated somewhere else
-
-
-RSEs focus on the creation of software in order to facilitate research using their Software Engineering (SE) skills.
+While there is overlap between all these fields, we can summarise that Research Data Managers focus on the data that is acquired, used and generated to do scientific work and provide guidance, support and tooling to ensure data quality and reusability. Data Scientists focus on gaining insight from the data that is generated somewhere else, whereas RSEs focus on the creation of software in order to facilitate research using their Software Engineering (SE) skills.
 RDM, DS and RSE are cross-cutting fields that are applicable across a wide range of research domains. We believe it is important to understand how the application of competences attributed to these roles may differ across domains. Despite the crossover between the respective roles, we observe that the communities representing these roles are quite disconnected or independent, perhaps because of the different communities through which these roles have developed - this is something we are keen to understand in more detail.
 
 In this paper, we focus our comparison on RSEs and DSs, as they represent the two primary groups within the digital technical professionals space whose skills are most software-focused.
 Our key contributions in this manuscript can be summarised as follows:
-we compare research software engineering and data science through the lens of the research cycle, examining how each discipline contributes at various stages.
+we compare RSE and DS through the lens of the research cycle, examining how each discipline contributes at various stages.
 In doing so, we identified significant areas of overlap, such as the reliance on programming and analytical skills, as well as key differences in focus, methodology, and project outcomes.
 
 This paper is structured as follows. @sec-cycle discusses how RSE and DS are embedded in the research cycle. @sec-method describes our method for comparing RSE and DS competencies, before @sec-results discusses our findings. @sec-conclusion concludes the paper.
@@ -77,11 +74,11 @@ There are different research processes depending on the discipline and the resea
 5. dissemination (publishing, distributing, peer-review)
 6. reflection and improvements
 
-For example, in the case of the field of learning technologies, the design phase often consists of extensive software development of different tools for learning. In this situation developing complex tools for learning can be considered as research software engineering. 
-The analysis of the learners' gain from using these technologies can be conceived as an educational research in its own right. 
-This example highlights the differences of scale in both the weight of the different process phases (here: phase 2) and the relevance of research software engineering. 
-It also shows a situation where research software engineering clearly differs from data science. 
-A typical data science background would not enable researchers to build full-stack software that solves inefficiencies or hard-to-teach problems in education.
+For example, in the case of the field of learning technologies, the design phase often consists of extensive software development of different tools for learning. In this situation developing complex tools for learning can be considered as  engineering software for research.
+The analysis of the learners' gain from using these technologies can be conceived as educational research in its own right.
+This highlights the differences of scale in both the weight of the different process phases (here: phase 2) and the relevance of RSE.
+It also shows a situation where RSE clearly differs from DS.
+A typical DS background would not enable researchers to build full-stack software that solves inefficiencies or hard-to-teach problems in education.
 
 ![The research cycle based on [@wildt2009forschendes] integrates the typical research process with the learning process.](img/Research_cycle.pdf){#fig-research_cycle width=50% fig-pos=ht!}
 
@@ -89,30 +86,27 @@ In the second example a GPT-like attention model is trained to classify data gai
 
 The main argument behind these examples is that DS and RSE have a lot in common in terms of software development for science but show major differences where they are placed in the research process. This re-frames the questions like "how much programming is in DS" or "how much engineering is in RSE" to a more structured approach of which cross-cutting functions exist in the research cycle that require computational means and which functions are part of the core identity of DSs and RSEs.
 
-As a working hypothesis based on the example above and experience in the field we assume the following: \[H1\] RSE focuses more on concept development, design, implementation and dissemination, i.e. phases 1,2,3,5 whereas DS focuses more on analysis, interpretation, dissemination and reflection (phases 4,5,6). Moreover, a second hypothesis would be that RSE often plays a role in shaping the context of the research \[H2a\], such as integrating projects with similar concerns, open source development and institutional needs. In contrast, data science is exclusively embedded in research \[H2b\].
-
-The focal point of the following chapter will revisit existing ideas for DS and RSE curricula and map the competences outlined there to the phases in the research process. This should give the abstract discussion above empirical grounding and can be used to test the hypothesis.
-
+As a working hypothesis based on the example above and experience in the field we assume the following: \[H1\] RSE focuses more on concept development, design, implementation and dissemination, i.e. phases 1,2,3,5 whereas DS focuses more on analysis, interpretation, dissemination and reflection (phases 4,5,6). Moreover, a second hypothesis would be that RSE often plays a role in shaping the context of the research \[H2a\], such as integrating projects with similar concerns, open source development and institutional needs. In contrast, DS is exclusively embedded in research \[H2b\].
 
 # Comparison Method {#sec-method}
 
 Comparing newly emerging fields objectively is a methodological challenge.
 Since institutionalised programs and curricula are decided by governing bodies, communities and practices, reports or white papers would serve as the natural starting points.
-For  this case, the major computing organisations ACM and IEEE have already acknowledged the importance of data science in their joint recommended computing curriculum, the Computing Curriculum 2020 [@CC2020], which lists Data Science (DS) as one of the special cases for computing competences.
-Research Software Engineering, as a still emerging field that currently witnesses an active trailing discussion [@Goth2024RSE], is not included there.
+For  this case, the major computing organisations ACM and IEEE have already acknowledged the importance of DS in their joint recommended computing curriculum, the Computing Curriculum 2020 [@CC2020], which lists Data Science as one of the special cases for computing competences.
+RSE, as a still emerging field that currently witnesses an active trailing discussion [@Goth2024RSE], is not included there.
 For this reason, the research cycle as discussed above was chosen as a _tertium comparationis_[^tertium].
 
 [^tertium]: tertium comparationis: the quality that two things which are being compared have in common
 
-In this paper the terms _competences_, _competencies_ and _expected learning outcomes_ are used interchangeably. For the intended audience the didactic discussions of output oriented didactics that pertain to the terminology are omitted. A practical introduction to the topic can be found in [@Dehne2021, p.112]. For the sake of clarifying the comparison mechanism it should be noted that we are looking at higher level abstractions of expected learning outcomes typical to the curriculum level of language. A more granular comparison that includes knowledge blocks could be part of future research.
+In this paper the terms _competences_, _competencies_ and _expected learning outcomes_ are used interchangeably. For the intended audience the didactic discussions of output-oriented didactics that pertain to the terminology are omitted. A practical introduction to the topic can be found in [@Dehne2021, p.112]. For the sake of clarifying the comparison mechanism it should be noted that we are looking at higher level abstractions of expected learning outcomes typical to the curriculum level of language. A more granular comparison that includes knowledge blocks could be part of future research.
 
-In the following, the content of [@GI2021DataScience] is analyzed and used as current examples
-of data science curricula in the German research context. The content is interpreted in regard to links to the research process. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020]. They were added to the content analysis and used to extend the findings.
+In the following, the content of the GI Reference Curriculum for DS [@GI2021DataScience] is analyzed and used as current examples
+of DS curricula in the German research context. The content is interpreted in regard to links to the research process. Further sources for the DS field are the output of the Edison Project [@EDSF2017] and the OpenDS4all Project [@OpenDS4All2020]. They were added to the content analysis and used to extend the findings.
 
-For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the RSE-Curricula project [@RSECurriculums2021]. 
-The RSE community has defined short codes for the RSE competencies, which are listed in the glossary appendix of [@Goth2024RSE].
+For the RSE side the contents of [@Goth2024RSE] are used as a basis as well as the current state of the community-driven RSE-Curricula project [@RSECurriculums2021].
+Here, the RSE community has defined short codes for the RSE competencies, which are listed in the glossary appendix of [@Goth2024RSE].
 
-In addition, relevant competences from the research data management field [@petersen_2025_15025246] are included as they intersect with both DS and RSE.
+In addition, relevant competences from the RDM field [@petersen_2025_15025246] are included as they intersect with both DS and RSE.
 
 The lists of extracted DS and RSE competency clusters can be found in [@ds2rse2025]. We also plan to publish a full table of RSE competencies (and possible DS competencies) sorted by clusters. In terms of this top-level discussion the competency clusters are sufficient to compare the differences with regard to the research cycle.
 
@@ -125,9 +119,12 @@ In summary, the following steps were made:
 
 In terms of methodology it should be noted that this approach follows a community-driven consensus building. Members of [@derseev] compiled and matched competences by inspection and discussion. Due to the interpretative nature of the emerging fields a classical content analysis would only reflect the state of the sparse body of literature instead of the qualified perception of the community. On this basis, this paper should not be mistaken for a review study with measurable inter-subjectivity based on instruments like PRISMA [@Page2021PRISMA].
 
+The focal point of the following chapter will revisit existing ideas for DS and RSE curricula and map the competences outlined there to the phases in the research process. This should give the abstract discussion above empirical grounding and can be used to test the hypothesis.
+
+
 # Results and Discussion {#sec-results}
 
-As visualised in Figure \ref{fig:rc_rse}, H1 could not be confirmed in the strict sense. Although the compiled competency clusters show that there is a stronger focus on certain stages of the research process for both RSE and DS competencies, both can be interpreted more generally to encompass all stages of the research cycle. Moreover, there are some competency descriptions that seem very similar such as the focus on the research cycle for RSE and the data science lifecycle for DS.
+As visualised in Figure \ref{fig:rc_rse}, H1 could not be confirmed in the strict sense. Although the compiled competency clusters show the expected focus on certain stages of the research process for both RSE and DS competencies, both can be interpreted more generally to encompass all stages of the research cycle. Moreover, there are some competency descriptions that seem very similar such as the focus on the research cycle for RSE and the lifecycle for DS.
 
 
 :::{=latex}
@@ -153,22 +150,20 @@ The clearest differences between DS and RSE are found in the design stage and th
 On the other hand, there are research fields and questions where research software as a tool is also the object of study. For example in educational research the effect of a Virtual Reality setting on learning outcomes is examined [@wiepke2022]. Here, the software presents new variables and interaction effects that warrant an investigation in their own right. To do that, the RSE professional would have to take on an integral part in the analysis phase of the project. Comprehensive methods such as Directed Acyclic Graph Modelling [@10.1001/jama.2022.1816] and Instrumental Variables [@bowden1990instrumental] to tackle these nested evaluation issues exist but are very complex, even in DS study programs rarely taught, and resource-intensive. For that reason, the overarching analysis of the experiment receives less attention than the design evaluation phase in which RSE-type work plays an important role.
 
 H2 also had to be rejected:
-In fact, DS seems to contain more aspects outside the research cycle than RSE.
+in fact, DS seems to contain more aspects outside the research cycle than RSE.
 As a major component of DS, analysis of data is clearly embedded in research.
 Still, DS includes more institutional, political and legal challenges than expected.
 A prominent part of these topics belongs to the core of RDM.
 This finding underscores how tightly DS is also intertwined with RDM
-and is reflected in the Data Science Body of Knowledge [@demchenko2017dsbok], which maps data science also to data management.
+and is reflected in the Data Science Body of Knowledge [@demchenko2017dsbok], which maps DS also to data management.
 Due to the strong overlap of non-research related competencies,
 a joint list of competency clusters was compiled that contains the competences that are not research cycle related (in [@ds2rse2025]).
-
-
 
 # Conclusion {#sec-conclusion}
 
 We have given a short and non-exhaustive introduction into the profiles of the Research Data Manager, the Data Scientist, and the Research Software Engineer. 
 The research cycle has served us as a useful reference on which to compare data science and research software engineering.
-While we found differences we have also seen commonalities both within and outside the research cycle. Especially outside the research cycle, a lot of competences seem to map to the Research Data Management field.
+While we found differences we have also seen commonalities both within and outside the research cycle. Especially outside the research cycle, a lot of competences seem to map to the RDM field.
 
 The connection between competencies and the corresponding knowledge canon is complex and nuanced. Some competencies are nearly equivalent to knowledge-based learning goals, while others integrate multiple knowledge areas with active application skills. Although mapping knowledge areas to competencies is beyond the scope of this paper, the concept of outlining fields and mapping corresponding aspects can be applied analogously. Future work will extend the competency mapping to knowledge-clusters [@SWEBOK2014; @DSBOK2017]. Thus, more and more RSE competence descriptions can be integrated as the field becomes more prominent.
 
@@ -177,6 +172,6 @@ We hope that future work delineates the differences with more detail in order to
 Also, it will be beneficial for the curriculum development of both fields to understand their commonalities in order to share academic resources.
 We hope that this contribution can serve as an impetus for more discussion about RSE in the DS community, and about the DS profile in the RSE community thereby raising the awareness about each other in the communities.
 
-
+One of the main limitations of this paper is that it is driven by one community only. However, this provides a starting point that can be expanded upon in community workshops and with conjoint publication efforts.
 
 \printbibliography
