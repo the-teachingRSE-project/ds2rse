@@ -81,7 +81,8 @@ This highlights the differences of scale in both the weight of the different pro
 It also shows a situation where RSE clearly differs from DS.
 A typical DS background would not enable researchers to build full-stack software that solves inefficiencies or hard-to-teach problems in education.
 
-![The research cycle based on [@wildt2009forschendes] integrates the typical research process with the learning process.](img/Research_cycle.pdf){#fig-research_cycle width=50% fig-pos=ht!}
+
+![The research cycle based on [@wildt2009forschendes]](img/Research_cycle.pdf){#fig-research_cycle width=50% fig-pos=ht!}
 
 In the second example a GPT-like attention model is trained to classify data gained from the James-Webb telescope. Due to vast amounts of data and the continuous stream of new data research software engineering is needed to implement a pipeline for data cleaning, data warehousing and in-time analysis. In this case, the analysis & interpretation phase (4) has much more relevance. Another point of this example is that data science competencies such as vectorization of algorithms, statistical analysis, machine learning etc. are interconnected with competencies from software engineering such as software architectures, software project management, and database programming. In this case the distinction between DS competencies and RSE competencies is very fluid.
 
